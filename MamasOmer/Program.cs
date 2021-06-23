@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Configuration;
+using MamasOmer.Classes;
 
 namespace MamasOmer
 {
@@ -6,7 +8,7 @@ namespace MamasOmer
     {        
         static void Main(string[] args)
         {
-            
+            RollsInitializer test = new RollsInitializer();
         }
     }
 }
