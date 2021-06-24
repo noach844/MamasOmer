@@ -5,6 +5,7 @@ using System.Configuration;
 using System.Collections.Specialized;
 using System.Linq;
 using MamasOmer.Classes.Exceptions;
+using System.Runtime.CompilerServices;
 
 namespace MamasOmer.Classes
 {
@@ -23,6 +24,7 @@ namespace MamasOmer.Classes
         private static Dictionary<string, int> ConstHours;
         // Dictionary of minHours <string, int> - string: name of rank, int - minimum hours of work in need to get const hours.
         private static Dictionary<string, int> MinHours;
+        public static double HourSalary;
 
         /// <summary>
         ///  CTOR - init Ranks and Rolls.
@@ -34,14 +36,25 @@ namespace MamasOmer.Classes
             Ranks = new Dictionary<string, int>();
             Risks = new Dictionary<string, int>();
             ConstHours = new Dictionary<string, int>();
-            MinHours = new Dictionary<string, int>();
-
+            MinHours = new Dictionary<string, int>();                        
             // Call Serializers
+            GeneralSerializer();
             RanksSerializer();
             RollsSerializer();
             RisksSerializer();
+            constHoursSerializer();
+            minHoursSerializer();
         }   
         
+        /// <summary>
+        /// The function reads from App.config and serialize it's general configs.
+        /// </summary>
+        private static void GeneralSerializer()
+        {
+            var section = ConfigurationManager.GetSection("General") as NameValueCollection;
+            HourSalary = Double.Parse(section.Get("HourSalary"));
+        }
+
         /// <summary>
         /// The function reads from App.config and serialize it into Rolls.
         /// </summary>
@@ -61,7 +74,7 @@ namespace MamasOmer.Classes
                 // Go through ranks after split
                 foreach (string rank in ranks.Split(';'))
                 {
-                    if(Ranks.(rank))
+                    if(Ranks.ContainsKey(rank))
                     {
                         //add rank to it's specific key in Rolls
                         Rolls[roll].Add(rank);
