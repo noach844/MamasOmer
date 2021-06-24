@@ -9,14 +9,14 @@ using MamasOmer.Classes.Exceptions;
 namespace MamasOmer.Classes
 {
     /// <summary>
-    /// The class takes App.config and serializing it into the right datatypes.    
+    /// The class takes App.config and serializing it into the right data types.    
     /// </summary>
     public static class ConfigSerializer
     {
         // Dictionary of Rolls <string, List<string>> - string: name of roll, List: list of ranks(each roll can have multiple ranks).
-        public static Dictionary<string, List<string>> Rolls;
+        private static Dictionary<string, List<string>> Rolls;
         // Dictionary of Ranks <string, int> - string: name of ranks, int - precents bonus.
-        public static Dictionary<string, int> Ranks;
+        private static Dictionary<string, int> Ranks;
 
         /// <summary>
         ///  CTOR - init Ranks and Rolls.
@@ -87,5 +87,33 @@ namespace MamasOmer.Classes
                 }
             }
         }
+
+        /// <summary>
+        /// The function returns the bonus precents of specific rank given.
+        /// </summary>
+        /// <param name="rank">
+        /// string - key of rank.
+        /// </param>
+        /// <returns>
+        /// int - bonus precents
+        /// </returns>
+        public static int GetBonus(string rank)
+        {
+            return Ranks[rank];
+        }
+
+        /// <summary>
+        /// The function retirns the ranks of specific roll given.
+        /// </summary>
+        /// <param name="roll">
+        /// string - key of roll.
+        /// </param>
+        /// <returns>
+        /// List of rolls.
+        /// </returns>
+        public static List<string> GetRanks(string roll)
+        {
+            return Rolls[roll];
+        }        
     }
 }
