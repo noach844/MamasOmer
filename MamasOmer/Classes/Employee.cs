@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MamasOmer.Classes.DB;
+using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace MamasOmer.Classes
 {
@@ -17,20 +19,23 @@ namespace MamasOmer.Classes
         // Roll of employee (from config options)
         private string Roll;
         // StartTime of cuurent shift
-        public string StartTime { get; }
-
+        public string StartTime { get; set; }
+        // Represents last Month worked in
+        public int Month { get; set; }
         /// <summary>
         /// CTOR
         /// </summary>
         /// <param name="id">id of employee</param>
         /// <param name="name">name (fname lname) of employee</param>
         /// <param name="Roll">Roll of employee (from options in config)</param>
-        public Employee(Int64 ID, string Name, string Roll, Decimal Hours, string StartTime)
+        public Employee(Int64 ID, string Name, string Roll, Decimal Hours, string StartTime, Int64 Month)
         {
             this.ID = Convert.ToInt32(ID);
             this.Name = Name;
             this.Roll = Roll;
             this.Hours = Decimal.ToDouble(Hours);
+            this.StartTime = StartTime;
+            this.Month = Convert.ToInt32(Month);
             // set bonus of specific employee
             BonusCalculate();
             // set risk bonus of specific employee
@@ -103,6 +108,52 @@ namespace MamasOmer.Classes
             setConstHours();
             //calculation
             return (Hours * (ConfigSerializer.HourSalary * bonus)) * riskBonus;
+        }
+
+        /// <summary>
+        /// The function is in charge of managing shift entrace and exit. (calculate hours of work and updates).
+        /// </summary>
+        public void Card()
+        {
+            // Check if start of shift
+            if(StartTime == null)
+            {
+                // Get current time
+                var now = DateTime.Now;
+                // Get current month
+                var month = now.Month;
+
+                // Check if first shift of month
+                if(month != Month)
+                {                    
+                    // Set Month to current month 
+                    Month = month;
+                    // Reset Hours. (monthly wage)
+                    Hours = 0;
+                }
+                // Convert date to string for DB.
+                StartTime = now.ToString();
+                // Update on DB
+                DBHandler.UpdateEmployee(this);
+            }
+            // End of shift
+            else
+            {             
+                // Get Current time
+                DateTime endTime = DateTime.Now;
+                // Convert string to DateTime for calculations
+                DateTime startTime = Convert.ToDateTime(StartTime);
+                // EndTime - startTime (in hours)
+                double hoursWorked = double.Parse((endTime - startTime).TotalHours.ToString());
+                // Round number to 2 numbers after '.'
+                hoursWorked = Math.Round(hoursWorked, 2);
+                // Add ended shift hours to total hours.
+                Hours += hoursWorked;
+                // Reset StartTime (until next shift)
+                StartTime = null;
+                // Updating the db. Hours and StartTime.
+                DBHandler.UpdateEmployee(this);
+            }
         }
     }
 }

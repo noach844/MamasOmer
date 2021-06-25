@@ -42,7 +42,7 @@ namespace MamasOmer.Classes.DB
             using (IDbConnection conn = new SQLiteConnection(LoadConnectionString()))
             {                
                 // Updates employee's Hours and StartTime
-                conn.Execute("UPDATE EMPLOYEES SET Hours=@Hours, StartTime=@StartTime WHERE ID=@ID", employee);
+                conn.Execute("UPDATE EMPLOYEES SET Hours=@Hours, StartTime=@StartTime, Month=@Month WHERE ID=@ID", employee);                
             }
         }
                

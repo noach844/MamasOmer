@@ -24,6 +24,7 @@ namespace MamasOmer.Classes
         private static Dictionary<string, int> ConstHours;
         // Dictionary of minHours <string, int> - string: name of rank, int - minimum hours of work in need to get const hours.
         private static Dictionary<string, int> MinHours;
+        // Hour Salary. Money per hour
         public static double HourSalary;
 
         /// <summary>
