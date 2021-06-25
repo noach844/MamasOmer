@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Configuration;
 using MamasOmer.Classes;
+using MamasOmer.Classes.DB;
 using MamasOmer.Classes.Exceptions;
 
 namespace MamasOmer

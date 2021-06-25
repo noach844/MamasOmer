@@ -5,35 +5,37 @@ namespace MamasOmer.Classes
     class Employee
     {
         // ID of employee
-        public int ID { get; }
+        public int ID { get;}
         // Name of employee (fname, lname)
-        public string Name { get; }
+        public string Name { get;}
         // Hours employee worked
-        private double hours;
+        public double Hours { get; set; }
         // Bonus in accordance to his ranks
         private double bonus;
-        // Bonus in accordance to roll's risk
+        // Bonus in accordance to Roll's risk
         private double riskBonus;
         // Roll of employee (from config options)
-        private string roll;
+        private string Roll;
+        // StartTime of cuurent shift
+        public string StartTime { get; }
 
         /// <summary>
         /// CTOR
         /// </summary>
         /// <param name="id">id of employee</param>
         /// <param name="name">name (fname lname) of employee</param>
-        /// <param name="roll">roll of employee (from options in config)</param>
-        public Employee(int id, string name, string roll)
+        /// <param name="Roll">Roll of employee (from options in config)</param>
+        public Employee(Int64 ID, string Name, string Roll, Decimal Hours, string StartTime)
         {
-            this.ID = id;
-            this.Name = name;
-            this.roll = roll;
-            this.hours = 0;
+            this.ID = Convert.ToInt32(ID);
+            this.Name = Name;
+            this.Roll = Roll;
+            this.Hours = Decimal.ToDouble(Hours);
             // set bonus of specific employee
             BonusCalculate();
             // set risk bonus of specific employee
             RiskCalculate();
-            Console.WriteLine($"Employee created! name:{Name}, ID:{ID}, Roll:{roll}, Bonus:{bonus}, Risk: {riskBonus}");
+            Console.WriteLine($"Employee created! name:{Name}, ID:{ID}, Roll:{Roll}, Bonus:{bonus}, Risk: {riskBonus}");
         }
 
         /// <summary>
@@ -43,8 +45,8 @@ namespace MamasOmer.Classes
         {
             // init value
             double bonus = 100;
-            // loop over all ranks of this employee's roll
-            foreach (string rank in ConfigSerializer.GetRanks(this.roll))
+            // loop over all ranks of this employee's Roll
+            foreach (string rank in ConfigSerializer.GetRanks(this.Roll))
             {
                 // sum
                 bonus += ConfigSerializer.GetBonus(rank);
@@ -54,38 +56,38 @@ namespace MamasOmer.Classes
         }
 
         /// <summary>
-        /// The function set the riskBonus to roll's riskBonus. called on init;
+        /// The function set the riskBonus to Roll's riskBonus. called on init;
         /// </summary>
         private void RiskCalculate()
         {
             // init value
             double riskBonus = 100;
             // add risk bonus
-            riskBonus += ConfigSerializer.GetRiskBonus(roll);
+            riskBonus += ConfigSerializer.GetRiskBonus(Roll);
             // set riskBonus. example: 80% => 1.8 for easier calculate later.
             this.riskBonus = riskBonus / 100;
         }
 
         /// <summary>
-        /// The function checks if there is a need to set hours according to roll and the hours he worked.
+        /// The function checks if there is a need to set Hours according to Roll and the Hours he worked.
         /// </summary>
         private void setConstHours()
         {
-            // Loop over ranks of employee's roll
-            foreach (string rank in ConfigSerializer.GetRanks(roll))
+            // Loop over ranks of employee's Roll
+            foreach (string rank in ConfigSerializer.GetRanks(Roll))
             {
-                // get consthours of rank
+                // get constHours of rank
                 int constHours = ConfigSerializer.GetConstHours(rank);
-                // check if rank has consthours
+                // check if rank has constHours
                 if (constHours != 0)
                 {
-                    // get minhours of rank
+                    // get minHours of rank
                     int minHours = ConfigSerializer.GetMinHours(rank);
-                    // check if employee worked enough hours.
-                    if (hours >= minHours)
+                    // check if employee worked enough Hours.
+                    if (Hours >= minHours)
                     {
-                        // uses the maximum hours between worked hours and const hours of rank.
-                        hours = Math.Max(hours, constHours);
+                        // uses the maximum Hours between worked Hours and const Hours of rank.
+                        Hours = Math.Max(Hours, constHours);
                     }
                 }
             }
@@ -97,10 +99,10 @@ namespace MamasOmer.Classes
         /// <returns>The wage of the employee</returns>
         public double WageCalculator()
         {
-            // fist, check if there is a need to set employee's hours
+            // fist, check if there is a need to set employee's Hours
             setConstHours();
             //calculation
-            return (hours * (ConfigSerializer.HourSalary * bonus)) * riskBonus;
+            return (Hours * (ConfigSerializer.HourSalary * bonus)) * riskBonus;
         }
     }
 }
