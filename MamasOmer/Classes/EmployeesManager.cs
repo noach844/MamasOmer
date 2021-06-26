@@ -57,7 +57,7 @@ namespace MamasOmer.Classes
             }
             else
             {
-                Console.WriteLine($"No customer with ID:{id} found!");
+                Console.WriteLine($"No employee with ID:{id} found!");
             }
         }
 
@@ -94,7 +94,7 @@ namespace MamasOmer.Classes
             else
             {
                 // No found output
-                Console.WriteLine($"No customer with ID:{id} found!");
+                Console.WriteLine($"No employee with ID:{id} found!");
             }
         }
 
