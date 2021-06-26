@@ -9,7 +9,9 @@ namespace MamasOmer
     class Program
     {        
         static void Main(string[] args)
-        {            
+        {
+            EmployeesManager manager = new EmployeesManager();
+            manager.SearchEmployees("Ing");
         }
     }
 }

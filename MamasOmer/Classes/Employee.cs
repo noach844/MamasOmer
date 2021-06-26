@@ -17,7 +17,7 @@ namespace MamasOmer.Classes
         // Bonus in accordance to Roll's risk
         private double riskBonus;
         // Roll of employee (from config options)
-        private string Roll;
+        public string Roll;
         // StartTime of cuurent shift
         public string StartTime { get; set; }
         // Represents last Month worked in
@@ -39,8 +39,7 @@ namespace MamasOmer.Classes
             // set bonus of specific employee
             BonusCalculate();
             // set risk bonus of specific employee
-            RiskCalculate();
-            Console.WriteLine($"Employee created! name:{Name}, ID:{ID}, Roll:{Roll}, Bonus:{bonus}, Risk: {riskBonus}");
+            RiskCalculate();            
         }
 
         /// <summary>
@@ -154,6 +153,11 @@ namespace MamasOmer.Classes
                 // Updating the db. Hours and StartTime.
                 DBHandler.UpdateEmployee(this);
             }
+        }
+
+        public override string ToString()
+        {
+            return $"{ID} | {Name} | {Roll}";
         }
     }
 }
