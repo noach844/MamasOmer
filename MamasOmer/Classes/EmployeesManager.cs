@@ -121,11 +121,11 @@ namespace MamasOmer.Classes
         public void printEmployeeTable(List<Employee> employees)
         {
             // Set columns
-            var table = new ConsoleTable("ID", "Name", "Roll");            
+            var table = new ConsoleTable("ID", "Name", "Role");            
             // Loop over employees and adds to table
             foreach(Employee employee in employees)
             {
-                table.AddRow(employee.ID, employee.Name, employee.Roll);
+                table.AddRow(employee.ID, employee.Name, employee.Role);
             }
             // Output table
             table.Write();

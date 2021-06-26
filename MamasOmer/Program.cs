@@ -10,7 +10,7 @@ namespace MamasOmer
     class Program
     {        
         static void Main(string[] args)
-        {
+        {            
             // Init main menu
             MainMenu menu = new MainMenu();
             // Run menu

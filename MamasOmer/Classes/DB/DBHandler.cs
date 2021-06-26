@@ -10,7 +10,7 @@ using System.Text;
 namespace MamasOmer.Classes.DB
 {
     /// <summary>
-    /// The class takes controll of db actions
+    /// The class takes controle of db actions
     /// </summary>
     class DBHandler
     {

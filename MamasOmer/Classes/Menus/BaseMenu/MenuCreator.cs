@@ -2,19 +2,19 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Mamas
+namespace MamasOmer.Classes.Menus
 {
     /// <summary>
     /// The class represents a menu and takes control of user input and executing the wanted options actions. 
     /// </summary>
-    partial class Menu
+    partial class MenuCreator
     {
         private List<Option> _optionsList;
 
         /// <summary>
         ///     CTOR
         /// </summary>
-        public Menu()
+        public MenuCreator()
         {
             _optionsList = new List<Option>();
         }
