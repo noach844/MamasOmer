@@ -14,10 +14,10 @@ namespace MamasOmer.Classes
         public double Hours { get; set; }
         // Bonus in accordance to his ranks
         private double bonus;
-        // Bonus in accordance to Roll's risk
+        // Bonus in accordance to Role's risk
         private double riskBonus;
-        // Roll of employee (from config options)
-        public string Roll;
+        // Role of employee (from config options)
+        public string Role;
         // StartTime of cuurent shift
         public string StartTime { get; set; }
         // Represents last Month worked in
@@ -27,12 +27,12 @@ namespace MamasOmer.Classes
         /// </summary>
         /// <param name="id">id of employee</param>
         /// <param name="name">name (fname lname) of employee</param>
-        /// <param name="Roll">Roll of employee (from options in config)</param>
-        public Employee(Int64 ID, string Name, string Roll, Decimal Hours, string StartTime, Int64 Month)
+        /// <param name="Role">Role of employee (from options in config)</param>
+        public Employee(Int64 ID, string Name, string Role, Decimal Hours, string StartTime, Int64 Month)
         {
             this.ID = Convert.ToInt32(ID);
             this.Name = Name;
-            this.Roll = Roll;
+            this.Role = Role;
             this.Hours = Decimal.ToDouble(Hours);
             this.StartTime = StartTime;
             this.Month = Convert.ToInt32(Month);
@@ -49,36 +49,36 @@ namespace MamasOmer.Classes
         {
             // init value
             double bonus = 100;
-            // loop over all ranks of this employee's Roll
-            foreach (string rank in ConfigSerializer.GetRanks(this.Roll))
+            // loop over all ranks of this employee's Role
+            foreach (string rank in ConfigSerializer.GetRoleRanks(this.Role))
             {
                 // sum
-                bonus += ConfigSerializer.GetBonus(rank);
+                bonus += ConfigSerializer.GetRankBonus(rank);
             }
             // set bonus. example: 80% => 1.8 for easier calculate later.
             this.bonus = bonus / 100;
         }
 
         /// <summary>
-        /// The function set the riskBonus to Roll's riskBonus. called on init;
+        /// The function set the riskBonus to Role's riskBonus. called on init;
         /// </summary>
         private void RiskCalculate()
         {
             // init value
             double riskBonus = 100;
             // add risk bonus
-            riskBonus += ConfigSerializer.GetRiskBonus(Roll);
+            riskBonus += ConfigSerializer.GetRiskBonus(Role);
             // set riskBonus. example: 80% => 1.8 for easier calculate later.
             this.riskBonus = riskBonus / 100;
         }
 
         /// <summary>
-        /// The function checks if there is a need to set Hours according to Roll and the Hours he worked.
+        /// The function checks if there is a need to set Hours according to Role and the Hours he worked.
         /// </summary>
         private void setConstHours()
         {
-            // Loop over ranks of employee's Roll
-            foreach (string rank in ConfigSerializer.GetRanks(Roll))
+            // Loop over ranks of employee's Role
+            foreach (string rank in ConfigSerializer.GetRoleRanks(Role))
             {
                 // get constHours of rank
                 int constHours = ConfigSerializer.GetConstHours(rank);

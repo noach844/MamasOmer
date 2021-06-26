@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Mamas
+namespace MamasOmer.Classes.Menus
 {
-    partial class Menu
+    partial class MenuCreator
     {
         /// <summary>
         /// Struct that represents a menu option.
@@ -11,7 +11,7 @@ namespace Mamas
         /// </remarks>
         /// </summary>
         private struct Option
-        {
+        {           
             public string Text { get; }
             private Action _action;
 

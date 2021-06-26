@@ -1,0 +1,3354 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.79" multi-file="no" uid="simp026b4f47236443708cb17c0e7f00b250">
+  <meta>
+    <name>MamasOmer</name>
+    <authors>omer noachs</authors>
+    <description />
+  </meta>
+  <counters documents="1" models="6">
+    <entity-names>
+      <counter>
+        <item-type type="Unknown" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="custom-shape" type="Simple Shape" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="text" type="Text" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="drawing-shape" type="Simple Shape" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>17</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>22</value>
+      </counter>
+      <counter>
+        <item-type type-id="containment" type="Containment" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>577</value>
+      </counter>
+      <counter>
+        <item-type type-id="diagram-description" type="Diagram Description" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="Generalization" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="Universal Connector" />
+        <value>19</value>
+      </counter>
+      <counter>
+        <item-type type-id="dependency" type="Dependency" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="association-class-link" type="Association Class Link" />
+        <value>12</value>
+      </counter>
+      <counter>
+        <item-type type-id="custom-shape" type="Simple Shape" />
+        <value>17</value>
+      </counter>
+      <counter>
+        <item-type type-id="text" type="Text" />
+        <value>22</value>
+      </counter>
+      <counter>
+        <item-type type-id="drawing-shape" type="Simple Shape" />
+        <value>21</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlPackageDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>5</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>38</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-ded07f68d6a34ae99ec938e5d2af5ce7" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name>omer</first-name>
+        <last-name>noachs</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-ec1e80db92a847769cae75b92a1c87aa" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="string[]" tid="" name="string[]" description="" />
+      <type id="List&lt;Employee&gt;" tid="" name="List&lt;Employee&gt;" description="" />
+      <type id="Employee" tid="" name="Employee" description="" />
+      <type id="string" tid="" name="string" description="" />
+      <type id="List&lt;Option&gt;" tid="" name="List&lt;Option&gt;" description="" />
+      <type id="Action" tid="" name="Action" description="" />
+      <type id="int" tid="" name="int" description="" />
+      <type id="MenuCreator" tid="" name="MenuCreator" description="" />
+      <type id="EmployeesManager" tid="" name="EmployeesManager" description="" />
+      <type id="double" tid="" name="double" description="" />
+      <type id="Dictionary&lt;string, int&gt;" tid="" name="Dictionary&lt;string, int&gt;" description="" />
+      <type id="Dictionary&lt;string, List&lt;string&gt;&gt;" tid="" name="Dictionary&lt;string, List&lt;string&gt;&gt;" description="" />
+      <type id="List&lt;string&gt;" tid="" name="List&lt;string&gt;" description="" />
+      <type id="Int64" tid="" name="Int64" description="" />
+      <type id="Decimal" tid="" name="Decimal" description="" />
+      <type id="Menu" tid="" name="Menu" description="" />
+      <type id="Class:236d6a1da8554542a2ca32cc614e93ad" tid="" name="MainMenu" description="" class-ref="236d6a1da8554542a2ca32cc614e93ad" />
+    </custom-types>
+  </types>
+  <items>
+    <item id="dd75b210a53e472eb3167c54bd71d73e" cid="GROUP486" type="group" name="Group" style-class="" creator="" creation-date="06/26/2021 18:05:47" />
+    <item id="e01cc3f6b9624895a41f1a95b492e9ce" cid="C016" type="class" name="" style-class="" creator="" creation-date="06/26/2021 17:57:59" />
+    <item id="6d588344f7994bb0827afe8ed27491b3" cid="PROP021" type="property" name="menu" style-class="" owner="2283113bf59f46968f12b0c131b6e33d" creator="" creation-date="06/26/2021 18:06:09" visibility="private">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+        <text-style type="name" use-defaults="false" color="#FF555555" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="text" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+        <text-style type="tagged-value" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="stereotype" use-defaults="false" color="#FF555555" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <background type="solid" colors="#FFF2F2F2,#FFF2F2F2" />
+        <border color="#FF555555" width="2" dash-style="Solid" />
+        <label-connector color="#80000000" width="1" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+            <text-style type="name" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <text-style type="text" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+            <text-style type="tagged-value" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <text-style type="stereotype" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <background type="solid" colors="#FF203D85,#FF203D85" />
+            <border color="#FF203D85" width="2" dash-style="Solid" />
+            <label-connector color="#80000000" width="1" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <feature />
+      <structural-feature type="MainMenu" type-id="Class:236d6a1da8554542a2ca32cc614e93ad" />
+      <property />
+    </item>
+  </items>
+  <models>
+    <model id="p1bc6e06d08874f6881391d0efda90c5c_183313623" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>06/26/2021 17:45:04</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items>
+        <item id="915e3e09301149f391df3cea1bf71093" cid="PKG001" type="package" name="MamasOmer" style-class="" creator="" creation-date="06/26/2021 17:45:26" />
+        <item id="75beb68ce3a44810ba37f9647994b0f1" cid="PKG002" type="package" name="Classes" style-class="" creator="" creation-date="06/26/2021 17:45:26" />
+        <item id="3e7819cac462445ba1d0c37f1d549c4e" cid="CNT002" type="containment" name="" style-class="" creator="" creation-date="06/26/2021 17:45:26" to="915e3e09301149f391df3cea1bf71093" />
+        <item id="692284a190bb4d68825d372304429a04" cid="PKG003" type="package" name="DB" style-class="" creator="" creation-date="06/26/2021 17:45:26" />
+        <item id="9299bd81caff4dc8a042bf474daf01bd" cid="CNT003" type="containment" name="" style-class="" creator="" creation-date="06/26/2021 17:45:26" from="692284a190bb4d68825d372304429a04" />
+        <item id="eefeeb75e9c945468c6cd9541109c4cd" cid="PKG004" type="package" name="Exceptions" style-class="" creator="" creation-date="06/26/2021 17:45:26" />
+        <item id="995611213203478a9e42f7003fac0532" cid="CNT004" type="containment" name="" style-class="" creator="" creation-date="06/26/2021 17:45:26" from="eefeeb75e9c945468c6cd9541109c4cd" />
+        <item id="47ef6f50660d4b9199b56973f9b570f0" cid="PKG005" type="package" name="Menus" style-class="" creator="" creation-date="06/26/2021 17:45:26" />
+        <item id="9b141000d47b40d7935e45b353f3e9a6" cid="CNT005" type="containment" name="" style-class="" creator="" creation-date="06/26/2021 17:45:26" from="47ef6f50660d4b9199b56973f9b570f0" />
+      </abstract-items>
+      <sub-models>
+        <model id="p994a9cba8fac4d2abebe6348aadfe7bc_473982335" name="MamasOmer" namespace="MamasOmer" order-index="2">
+          <meta>
+            <authors>
+              <author> </author>
+            </authors>
+            <description />
+            <creation-date>06/26/2021 17:45:26</creation-date>
+            <change-date>01/01/0001 00:00:00</change-date>
+            <revision-count>0</revision-count>
+            <version />
+          </meta>
+          <abstract-items>
+            <item id="2283113bf59f46968f12b0c131b6e33d" cid="C001" type="class" name="Program" style-class="" creator="" creation-date="06/26/2021 17:45:26" visibility="undefined">
+              <tagged-values>
+                <tagged-value id="tv590aa14ab46746d5b0ae247b264f8a2c" name="namespace" type="text" multiple="false" value="MamasOmer" />
+              </tagged-values>
+              <owned-items>
+                <owned-item ref="6d588344f7994bb0827afe8ed27491b3" />
+              </owned-items>
+              <attributes>
+                <attribute id="afa24762088bc4bfcbac62dc908445df363" cid="PROP021" name="menu" creation-date="06/26/2021 18:06:09" property-ref="6d588344f7994bb0827afe8ed27491b3" />
+              </attributes>
+              <operations>
+                <operation id="of5f30539dd8e4433ab1719312a1b2955197" cid="OP001" name="Main" creation-date="06/26/2021 17:45:26" type="" type-id="" visibility="undefined" static="true">
+                  <parameters>
+                    <parameter id="p2cebd11b8e0e4ff18f737c8f56e19e73" name="args" type="string[]" type-id="string[]" />
+                  </parameters>
+                  <documentation>
+                    <text>
+                      <default>
+                        <style font-name="Verdana" font-size="12">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </default>
+                      <styles />
+                      <content>
+                        <paragraph>
+                          <style />
+                          <p>
+                            <t> Init main menu
+ Run menu
+</t>
+                          </p>
+                        </paragraph>
+                      </content>
+                    </text>
+                  </documentation>
+                  <source-codes>
+                    <source-code language="CSharp">            
+                             
+            MainMenu menu = new MainMenu();
+                       
+            menu.Run();
+        </source-code>
+                  </source-codes>
+                </operation>
+              </operations>
+              <source-codes>
+                <source-code language="ActionScript" />
+              </source-codes>
+            </item>
+          </abstract-items>
+          <sub-models>
+            <model id="p1b6e8b61956d45349a247d27e303d40e_681055263" name="Classes" namespace="MamasOmer.Classes" order-index="1">
+              <meta>
+                <authors>
+                  <author> </author>
+                </authors>
+                <description />
+                <creation-date>06/26/2021 17:45:26</creation-date>
+                <change-date>01/01/0001 00:00:00</change-date>
+                <revision-count>0</revision-count>
+                <version />
+              </meta>
+              <abstract-items>
+                <item id="403ae905fe2c4a9faa49d0681796ac9e" cid="C008" type="class" name="ConfigSerializer" style-class="" creator="" creation-date="06/26/2021 17:45:26" visibility="public">
+                  <stereotypes>
+                    <stereotype name="static" />
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tv188aa2db3a2448378715a054b22192ee" name="namespace" type="text" multiple="false" value="MamasOmer.Classes" />
+                  </tagged-values>
+                  <documentation>
+                    <text>
+                      <default>
+                        <style font-name="Verdana" font-size="12">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </default>
+                      <styles />
+                      <content>
+                        <paragraph>
+                          <style />
+                          <p>
+                            <t> &lt;summary&gt;</t>
+                          </p>
+                          <p>
+                            <t>
+ </t>
+                          </p>
+                          <p>
+                            <t>The </t>
+                          </p>
+                          <p>
+                            <t>class </t>
+                          </p>
+                          <p>
+                            <t>takes </t>
+                          </p>
+                          <p>
+                            <t>App.config </t>
+                          </p>
+                          <p>
+                            <t>and </t>
+                          </p>
+                          <p>
+                            <t>serializing </t>
+                          </p>
+                          <p>
+                            <t>it </t>
+                          </p>
+                          <p>
+                            <t>into </t>
+                          </p>
+                          <p>
+                            <t>the </t>
+                          </p>
+                          <p>
+                            <t>right </t>
+                          </p>
+                          <p>
+                            <t>data </t>
+                          </p>
+                          <p>
+                            <t>types. </t>
+                          </p>
+                          <p>
+                            <t>  </t>
+                          </p>
+                          <p>
+                            <t> </t>
+                          </p>
+                          <p>
+                            <t>
+ </t>
+                          </p>
+                          <p>
+                            <t>This </t>
+                          </p>
+                          <p>
+                            <t>part </t>
+                          </p>
+                          <p>
+                            <t>takes </t>
+                          </p>
+                          <p>
+                            <t>charge </t>
+                          </p>
+                          <p>
+                            <t>of </t>
+                          </p>
+                          <p>
+                            <t>general </t>
+                          </p>
+                          <p>
+                            <t>configs </t>
+                          </p>
+                          <p>
+                            <t>and </t>
+                          </p>
+                          <p>
+                            <t>CTOR</t>
+                          </p>
+                          <p>
+                            <t>
+ </t>
+                          </p>
+                          <p>
+                            <t>&lt;/summary&gt;</t>
+                          </p>
+                          <p>
+                            <t>
+ </t>
+                          </p>
+                          <p>
+                            <t>Hour </t>
+                          </p>
+                          <p>
+                            <t>Salary. </t>
+                          </p>
+                          <p>
+                            <t>Money </t>
+                          </p>
+                          <p>
+                            <t>per </t>
+                          </p>
+                          <p>
+                            <t>hour</t>
+                          </p>
+                          <p>
+                            <t>
+ </t>
+                          </p>
+                          <p>
+                            <t>&lt;summary&gt;</t>
+                          </p>
+                          <p>
+                            <t>
+ </t>
+                          </p>
+                          <p>
+                            <t> CTOR </t>
+                          </p>
+                          <p>
+                            <t>- </t>
+                          </p>
+                          <p>
+                            <t>init </t>
+                          </p>
+                          <p>
+                            <t>Ranks </t>
+                          </p>
+                          <p>
+                            <t>and </t>
+                          </p>
+                          <p>
+                            <t>Roles.</t>
+                          </p>
+                          <p>
+                            <t>
+ </t>
+                          </p>
+                          <p>
+                            <t>&lt;/summary&gt;
+</t>
+                          </p>
+                        </paragraph>
+                      </content>
+                    </text>
+                  </documentation>
+                  <stereotype-instances>
+                    <stereotype id="403ae905fe2c4a9faa49d0681796ac9e_static_c" type="static" ref="" />
+                  </stereotype-instances>
+                  <owned-items>
+                    <owned-item ref="e5f81abf9ee24c8d80ff9a3f8610644b" />
+                  </owned-items>
+                  <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                    <text-style type="name" use-defaults="false" color="#FF555555" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                    <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                    <text-style type="text" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                    <text-style type="tagged-value" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                    <text-style type="stereotype" use-defaults="false" color="#FF555555" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                    <background type="solid" colors="#FFF2F2F2,#FFF2F2F2" />
+                    <border color="#FF2A2A2A" width="1" dash-style="Solid" />
+                    <label-connector color="#80000000" width="1" dash-style="Dash" />
+                    <alternate-styles>
+                      <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                        <text-style type="name" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                        <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                        <text-style type="text" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                        <text-style type="tagged-value" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                        <text-style type="stereotype" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                        <background type="solid" colors="#FF203D85,#FF203D85" />
+                        <border color="#FF203D85" width="2" dash-style="Solid" />
+                        <label-connector color="#80000000" width="1" dash-style="Dash" />
+                      </alternate-style>
+                    </alternate-styles>
+                  </style>
+                  <attributes>
+                    <attribute id="a827bd2cdf02d4fb5aaaa0edda89beac8212" cid="PROP006" name="HourSalary" creation-date="06/26/2021 17:45:26" property-ref="e5f81abf9ee24c8d80ff9a3f8610644b" />
+                  </attributes>
+                  <operations>
+                    <operation id="o0533bd5b96ce4412816ccf79845769a1212" cid="OP015" name="ConfigSerializer" creation-date="06/26/2021 17:45:26" type="" type-id="" visibility="undefined" static="true">
+                      <stereotypes>
+                        <stereotype>create</stereotype>
+                      </stereotypes>
+                      <documentation>
+                        <text>
+                          <default>
+                            <style font-name="Verdana" font-size="12">
+                              <text>
+                                <solid-brush color="#FF000000" />
+                              </text>
+                            </style>
+                          </default>
+                          <styles />
+                          <content>
+                            <paragraph>
+                              <style />
+                              <p>
+                                <t> Call Serializers
+ &lt;summary&gt;
+ The function reads from App.config and serialize it's general configs.
+ &lt;/summary&gt;
+</t>
+                              </p>
+                            </paragraph>
+                          </content>
+                        </text>
+                      </documentation>
+                    </operation>
+                    <operation id="o9e6d40da3479450b8ceb557682b07e7d212" cid="OP016" name="GeneralSerializer" creation-date="06/26/2021 17:45:26" type="" type-id="" visibility="private" static="true">
+                      <source-codes>
+                        <source-code language="CSharp">
+            var section = ConfigurationManager.GetSection("General") as NameValueCollection;
+            HourSalary = Double.Parse(section.Get("HourSalary"));
+        </source-code>
+                      </source-codes>
+                    </operation>
+                  </operations>
+                </item>
+                <item id="e5f81abf9ee24c8d80ff9a3f8610644b" cid="PROP006" type="property" name="HourSalary" style-class="" owner="403ae905fe2c4a9faa49d0681796ac9e" creator="" creation-date="06/26/2021 17:45:26" visibility="public">
+                  <documentation>
+                    <text>
+                      <default>
+                        <style font-name="Verdana" font-size="12">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </default>
+                      <styles />
+                      <content>
+                        <paragraph>
+                          <style />
+                          <p>
+                            <t> Init values
+</t>
+                          </p>
+                        </paragraph>
+                      </content>
+                    </text>
+                  </documentation>
+                  <feature static="true" />
+                  <structural-feature type="double" type-id="double" />
+                  <property />
+                </item>
+                <item id="4cd676c7c2cf4cfcb659e6995de5274b" cid="C009" type="class" name="ConfigSerializer.Hours" style-class="" creator="" creation-date="06/26/2021 17:45:26" visibility="public">
+                  <stereotypes>
+                    <stereotype name="static" />
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tv57ca0d00cda34e07a22ee43e7dae0163" name="namespace" type="text" multiple="false" value="MamasOmer.Classes" />
+                  </tagged-values>
+                  <documentation>
+                    <text>
+                      <default>
+                        <style font-name="Verdana" font-size="12">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </default>
+                      <styles />
+                      <content>
+                        <paragraph>
+                          <style />
+                          <p>
+                            <t> &lt;summary&gt;
+ This part takes charge of MinHours and ConstHours sections from config
+ &lt;/summary&gt;
+ Dictionary of constHours &lt;string, int&gt; - string: name of rank, int - hours to pay for constantly
+ Dictionary of minHours &lt;string, int&gt; - string: name of rank, int - minimum hours of work in need to get const hours.
+</t>
+                          </p>
+                        </paragraph>
+                      </content>
+                    </text>
+                  </documentation>
+                  <stereotype-instances>
+                    <stereotype id="4cd676c7c2cf4cfcb659e6995de5274b_static_c" type="static" ref="" />
+                  </stereotype-instances>
+                  <owned-items>
+                    <owned-item ref="3c03670fdbff4574bff5f29f9743d327" />
+                    <owned-item ref="0df8e24281b74545be5a89b8a86b288c" />
+                  </owned-items>
+                  <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                    <text-style type="name" use-defaults="false" color="#FF555555" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                    <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                    <text-style type="text" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                    <text-style type="tagged-value" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                    <text-style type="stereotype" use-defaults="false" color="#FF555555" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                    <background type="solid" colors="#FFF2F2F2,#FFF2F2F2" />
+                    <border color="#FF2A2A2A" width="1" dash-style="Solid" />
+                    <label-connector color="#80000000" width="1" dash-style="Dash" />
+                    <alternate-styles>
+                      <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                        <text-style type="name" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                        <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                        <text-style type="text" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                        <text-style type="tagged-value" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                        <text-style type="stereotype" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                        <background type="solid" colors="#FF203D85,#FF203D85" />
+                        <border color="#FF203D85" width="2" dash-style="Solid" />
+                        <label-connector color="#80000000" width="1" dash-style="Dash" />
+                      </alternate-style>
+                    </alternate-styles>
+                  </style>
+                  <attributes>
+                    <attribute id="a43a1593f65814e10a03a598f6684b9c3212" cid="PROP007" name="ConstHours" creation-date="06/26/2021 17:45:26" property-ref="3c03670fdbff4574bff5f29f9743d327" />
+                    <attribute id="a3244c8b31b064d37a8a05f189fa5c943212" cid="PROP008" name="MinHours" creation-date="06/26/2021 17:45:26" property-ref="0df8e24281b74545be5a89b8a86b288c" />
+                  </attributes>
+                  <operations>
+                    <operation id="oc048ebc5e59a4c439d9c4385386a5e35212" cid="OP017" name="constHoursSerializer" creation-date="06/26/2021 17:45:26" type="" type-id="" visibility="private" static="true">
+                      <documentation>
+                        <text>
+                          <default>
+                            <style font-name="Verdana" font-size="12">
+                              <text>
+                                <solid-brush color="#FF000000" />
+                              </text>
+                            </style>
+                          </default>
+                          <styles />
+                          <content>
+                            <paragraph>
+                              <style />
+                              <p>
+                                <t> Cast value of ConstHours to int. The value represents hours to pay for specific rank.
+ add hours into it's key in constHours.                
+ &lt;summary&gt;
+ The function reads from App.config and serialize it into MinHours.        
+ &lt;/summary&gt;
+ Get constHours section from App.config
+ Loop through the keys in 'MinHours' section, Each key represents a rank.
+ Cast value of MinHours to int. The value represents minimum hours to get the constHours for rank.
+ add hours into it's key in MinHours.                
+</t>
+                              </p>
+                            </paragraph>
+                          </content>
+                        </text>
+                      </documentation>
+                      <source-codes>
+                        <source-code language="CSharp">
+                                                     
+            var section = ConfigurationManager.GetSection("ConstHours") as NameValueCollection;
+                                                                                         
+            foreach (string rank in section.Keys)
+            {
+                try
+                {
+                                                                                                            
+                    int hours = Int32.Parse(section.Get(rank));                    
+                    if (Ranks.ContainsKey(rank))
+                    {
+                                                                                 
+                        ConstHours.Add(rank, hours);
+                    }
+                    else
+                    {
+                        throw new InvalidConfigException("All keys in ConstHours must be Ranks!");
+                    }
+                }
+                catch (FormatException)
+                {
+                    throw new InvalidConfigException("Value of key in ConstHours section must be an Integer!");
+                }
+            }
+        </source-code>
+                      </source-codes>
+                    </operation>
+                    <operation id="o4a0a33acd2934e83be7ea427d62e2429212" cid="OP018" name="minHoursSerializer" creation-date="06/26/2021 17:45:26" type="" type-id="" visibility="private" static="true">
+                      <documentation>
+                        <text>
+                          <default>
+                            <style font-name="Verdana" font-size="12">
+                              <text>
+                                <solid-brush color="#FF000000" />
+                              </text>
+                            </style>
+                          </default>
+                          <styles />
+                          <content>
+                            <paragraph>
+                              <style />
+                              <p>
+                                <t> &lt;summary&gt;
+ The function returns the constant hours for specific rank
+ &lt;/summary&gt;
+ &lt;param name="rank"&gt;string - key of rank&lt;/param&gt;
+ &lt;returns&gt;number of rank hours needs to get payed by constantly&lt;/returns&gt;
+ checks if rank needs to get const hours, else returns 0 
+ &lt;summary&gt;
+ The function returns the minimum hours a rank needs to work to get his const hours
+ &lt;/summary&gt;
+ &lt;param name="rank"&gt;string - key of rank&lt;/param&gt;
+ &lt;returns&gt;minimum hours to get rank's const hours&lt;/returns&gt;
+ checks if rank has minimum hours to get his const hours, else returns 0
+</t>
+                              </p>
+                            </paragraph>
+                          </content>
+                        </text>
+                      </documentation>
+                      <source-codes>
+                        <source-code language="CSharp">
+                                                     
+            var section = ConfigurationManager.GetSection("MinHours") as NameValueCollection;
+                                                                                       
+            foreach (string rank in section.Keys)
+            {
+                try
+                {
+                                                                                                                        
+                    int hours = Int32.Parse(section.Get(rank));                    
+                    if (Ranks.ContainsKey(rank))
+                    {
+                                                                               
+                        MinHours.Add(rank, hours);
+                    }
+                    else
+                    {
+                        throw new InvalidConfigException("All keys in MinHours must be Ranks!");
+                    }
+                }
+                catch (FormatException)
+                {
+                    throw new InvalidConfigException("Value of key in MinHours section must be an Integer!");
+                }
+            }
+        </source-code>
+                      </source-codes>
+                    </operation>
+                    <operation id="o5e109004e01a4cbb8a2a9072e172d86d212" cid="OP019" name="GetConstHours" creation-date="06/26/2021 17:45:26" type="int" type-id="int" visibility="public" static="true">
+                      <parameters>
+                        <parameter id="pe7ddbff44a6747aa82cf2dbbb876b816" name="rank" type="string" type-id="string" />
+                      </parameters>
+                      <source-codes>
+                        <source-code language="CSharp">
+                                                                       
+            return ConstHours.ContainsKey(rank) ? ConstHours[rank] : 0;
+        </source-code>
+                      </source-codes>
+                    </operation>
+                    <operation id="o29ef6afc8d454a91860b67d4b7983e10212" cid="OP020" name="GetMinHours" creation-date="06/26/2021 17:45:26" type="int" type-id="int" visibility="public" static="true">
+                      <parameters>
+                        <parameter id="p1d014f74352f4185a085f6768c118dc3" name="rank" type="string" type-id="string" />
+                      </parameters>
+                      <source-codes>
+                        <source-code language="CSharp">
+                                                                                      
+            return MinHours.ContainsKey(rank) ? MinHours[rank] : 0;
+        </source-code>
+                      </source-codes>
+                    </operation>
+                  </operations>
+                </item>
+                <item id="3c03670fdbff4574bff5f29f9743d327" cid="PROP007" type="property" name="ConstHours" style-class="" owner="4cd676c7c2cf4cfcb659e6995de5274b" creator="" creation-date="06/26/2021 17:45:26" visibility="private">
+                  <documentation>
+                    <text>
+                      <default>
+                        <style font-name="Verdana" font-size="12">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </default>
+                      <styles />
+                      <content>
+                        <paragraph>
+                          <style />
+                          <p>
+                            <t> &lt;summary&gt;
+ The function reads from App.config and serialize it into ConstHours.
+ &lt;/summary&gt;
+ Get constHours section from App.config
+</t>
+                          </p>
+                        </paragraph>
+                      </content>
+                    </text>
+                  </documentation>
+                  <feature static="true" />
+                  <structural-feature type="Dictionary&lt;string, int&gt;" type-id="Dictionary&lt;string, int&gt;" />
+                  <property />
+                </item>
+                <item id="0df8e24281b74545be5a89b8a86b288c" cid="PROP008" type="property" name="MinHours" style-class="" owner="4cd676c7c2cf4cfcb659e6995de5274b" creator="" creation-date="06/26/2021 17:45:26" visibility="private">
+                  <documentation>
+                    <text>
+                      <default>
+                        <style font-name="Verdana" font-size="12">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </default>
+                      <styles />
+                      <content>
+                        <paragraph>
+                          <style />
+                          <p>
+                            <t> Loop through the keys in 'ConstHours' section, Each key represents a rank.
+</t>
+                          </p>
+                        </paragraph>
+                      </content>
+                    </text>
+                  </documentation>
+                  <feature static="true" />
+                  <structural-feature type="Dictionary&lt;string, int&gt;" type-id="Dictionary&lt;string, int&gt;" />
+                  <property />
+                </item>
+                <item id="240981747f804622bf819dd1fece3640" cid="C010" type="class" name="ConfigSerializer.Ranks" style-class="" creator="" creation-date="06/26/2021 17:45:26" visibility="public">
+                  <stereotypes>
+                    <stereotype name="static" />
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tvc9aa55bd06bb4e36bf7a79cbd37009be" name="namespace" type="text" multiple="false" value="MamasOmer.Classes" />
+                  </tagged-values>
+                  <documentation>
+                    <text>
+                      <default>
+                        <style font-name="Verdana" font-size="12">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </default>
+                      <styles />
+                      <content>
+                        <paragraph>
+                          <style />
+                          <p>
+                            <t> &lt;summary&gt;
+ This part takes charge of Ranks section from config
+ &lt;/summary&gt;
+ Dictionary of Ranks &lt;string, int&gt; - string: name of ranks, int - precents bonus.
+ &lt;summary&gt;
+</t>
+                          </p>
+                        </paragraph>
+                      </content>
+                    </text>
+                  </documentation>
+                  <stereotype-instances>
+                    <stereotype id="240981747f804622bf819dd1fece3640_static_c" type="static" ref="" />
+                  </stereotype-instances>
+                  <owned-items>
+                    <owned-item ref="392783b88a574ecab3cdc46340f82a8d" />
+                  </owned-items>
+                  <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                    <text-style type="name" use-defaults="false" color="#FF555555" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                    <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                    <text-style type="text" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                    <text-style type="tagged-value" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                    <text-style type="stereotype" use-defaults="false" color="#FF555555" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                    <background type="solid" colors="#FFF2F2F2,#FFF2F2F2" />
+                    <border color="#FF2A2A2A" width="1" dash-style="Solid" />
+                    <label-connector color="#80000000" width="1" dash-style="Dash" />
+                    <alternate-styles>
+                      <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                        <text-style type="name" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                        <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                        <text-style type="text" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                        <text-style type="tagged-value" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                        <text-style type="stereotype" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                        <background type="solid" colors="#FF203D85,#FF203D85" />
+                        <border color="#FF203D85" width="2" dash-style="Solid" />
+                        <label-connector color="#80000000" width="1" dash-style="Dash" />
+                      </alternate-style>
+                    </alternate-styles>
+                  </style>
+                  <attributes>
+                    <attribute id="adbd509a6839c4bc8956394fea4705de5212" cid="PROP009" name="Ranks" creation-date="06/26/2021 17:45:26" property-ref="392783b88a574ecab3cdc46340f82a8d" />
+                  </attributes>
+                  <operations>
+                    <operation id="o4b1fba46eb11489a91015ec073a38a95212" cid="OP021" name="RanksSerializer" creation-date="06/26/2021 17:45:26" type="" type-id="" visibility="private" static="true">
+                      <documentation>
+                        <text>
+                          <default>
+                            <style font-name="Verdana" font-size="12">
+                              <text>
+                                <solid-brush color="#FF000000" />
+                              </text>
+                            </style>
+                          </default>
+                          <styles />
+                          <content>
+                            <paragraph>
+                              <style />
+                              <p>
+                                <t> Loop through the keys in 'Ranks' section, Each key represents a rank.
+ Cast value of rank to int. The value represents the bonus precents.
+ add rank into it's key in Ranks.                
+ &lt;summary&gt;
+ The function returns the bonus precents of specific rank given.
+ &lt;/summary&gt;
+ &lt;param name="rank"&gt;
+ string - key of rank.
+ &lt;/param&gt;
+ &lt;returns&gt;
+ int - bonus precents
+ &lt;/returns&gt;
+</t>
+                              </p>
+                            </paragraph>
+                          </content>
+                        </text>
+                      </documentation>
+                      <source-codes>
+                        <source-code language="CSharp">
+                                                
+            var section = ConfigurationManager.GetSection("Ranks") as NameValueCollection;
+                                                                                    
+            foreach (string rank in section.Keys)
+            {
+                try
+                {
+                                                                                          
+                    int precents = Int32.Parse(section.Get(rank));
+                                                                       
+                    Ranks.Add(rank, precents);
+                }
+                catch (FormatException)
+                {
+                    throw new InvalidConfigException("Value of key in ranks section must be an Integer!");
+                }
+            }
+        </source-code>
+                      </source-codes>
+                    </operation>
+                    <operation id="oac4fdb78209a45fe8cfa35712673b75c212" cid="OP022" name="GetRankBonus" creation-date="06/26/2021 17:45:26" type="int" type-id="int" visibility="public" static="true">
+                      <parameters>
+                        <parameter id="p6988f01716ee43adbde0c755790c239e" name="rank" type="string" type-id="string" />
+                      </parameters>
+                      <source-codes>
+                        <source-code language="CSharp">
+            return Ranks[rank];
+        </source-code>
+                      </source-codes>
+                    </operation>
+                  </operations>
+                </item>
+                <item id="392783b88a574ecab3cdc46340f82a8d" cid="PROP009" type="property" name="Ranks" style-class="" owner="240981747f804622bf819dd1fece3640" creator="" creation-date="06/26/2021 17:45:26" visibility="private">
+                  <documentation>
+                    <text>
+                      <default>
+                        <style font-name="Verdana" font-size="12">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </default>
+                      <styles />
+                      <content>
+                        <paragraph>
+                          <style />
+                          <p>
+                            <t>  The function reads from App.config and serialize it into Ranks.     
+ &lt;/summary&gt;
+ Get Ranks section from App.config
+</t>
+                          </p>
+                        </paragraph>
+                      </content>
+                    </text>
+                  </documentation>
+                  <feature static="true" />
+                  <structural-feature type="Dictionary&lt;string, int&gt;" type-id="Dictionary&lt;string, int&gt;" />
+                  <property />
+                </item>
+                <item id="0f28c2cef5c341da9a19c8c8a5960ce6" cid="C011" type="class" name="ConfigSerializer.Risks" style-class="" creator="" creation-date="06/26/2021 17:45:26" visibility="public">
+                  <stereotypes>
+                    <stereotype name="static" />
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tvb92004b189484857a13ac665533e8806" name="namespace" type="text" multiple="false" value="MamasOmer.Classes" />
+                  </tagged-values>
+                  <documentation>
+                    <text>
+                      <default>
+                        <style font-name="Verdana" font-size="12">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </default>
+                      <styles />
+                      <content>
+                        <paragraph>
+                          <style />
+                          <p>
+                            <t> &lt;summary&gt;
+ This part takes charge of Risks section from config
+ &lt;/summary&gt;
+ Dictionary of Risks &lt;string, int&gt; - string: name of role, int - precents bonus for risk.
+ &lt;summary&gt;
+</t>
+                          </p>
+                        </paragraph>
+                      </content>
+                    </text>
+                  </documentation>
+                  <stereotype-instances>
+                    <stereotype id="0f28c2cef5c341da9a19c8c8a5960ce6_static_c" type="static" ref="" />
+                  </stereotype-instances>
+                  <owned-items>
+                    <owned-item ref="b7b4bbdaf82646c0a8ecc8996b2aeccb" />
+                  </owned-items>
+                  <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                    <text-style type="name" use-defaults="false" color="#FF555555" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                    <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                    <text-style type="text" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                    <text-style type="tagged-value" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                    <text-style type="stereotype" use-defaults="false" color="#FF555555" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                    <background type="solid" colors="#FFF2F2F2,#FFF2F2F2" />
+                    <border color="#FF2A2A2A" width="1" dash-style="Solid" />
+                    <label-connector color="#80000000" width="1" dash-style="Dash" />
+                    <alternate-styles>
+                      <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                        <text-style type="name" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                        <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                        <text-style type="text" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                        <text-style type="tagged-value" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                        <text-style type="stereotype" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                        <background type="solid" colors="#FF203D85,#FF203D85" />
+                        <border color="#FF203D85" width="2" dash-style="Solid" />
+                        <label-connector color="#80000000" width="1" dash-style="Dash" />
+                      </alternate-style>
+                    </alternate-styles>
+                  </style>
+                  <attributes>
+                    <attribute id="a25c010c200154443b4d5efe0b10e6964212" cid="PROP010" name="Risks" creation-date="06/26/2021 17:45:26" property-ref="b7b4bbdaf82646c0a8ecc8996b2aeccb" />
+                  </attributes>
+                  <operations>
+                    <operation id="od5e01a7d2554486c853cc5da31ae6767212" cid="OP023" name="RisksSerializer" creation-date="06/26/2021 17:45:26" type="" type-id="" visibility="private" static="true">
+                      <documentation>
+                        <text>
+                          <default>
+                            <style font-name="Verdana" font-size="12">
+                              <text>
+                                <solid-brush color="#FF000000" />
+                              </text>
+                            </style>
+                          </default>
+                          <styles />
+                          <content>
+                            <paragraph>
+                              <style />
+                              <p>
+                                <t> Loop through the keys in 'Risks' section, Each key represents a role.
+ Cast value of Risk to int. The value represents the bonus precents given for risk.
+ add risk into it's key in Risks.                                    
+ &lt;summary&gt;
+ The function returns the bonus precents given for risk of specific role given.
+ &lt;/summary&gt;
+ &lt;param name="role"&gt;string - key of role&lt;/param&gt;
+ &lt;returns&gt;
+ Bonus precents
+ &lt;/returns&gt;
+ checks if role needs to get bonus, else returns 0 
+</t>
+                              </p>
+                            </paragraph>
+                          </content>
+                        </text>
+                      </documentation>
+                      <source-codes>
+                        <source-code language="CSharp">
+                                                
+            var section = ConfigurationManager.GetSection("Risks") as NameValueCollection;
+                                                                                    
+            foreach (string role in section.Keys)
+            {
+                try
+                {
+                                                                                                         
+                    int precents = Int32.Parse(section.Get(role));                   
+                    if (Roles.ContainsKey(role))
+                    {
+                                                                                               
+                        Risks.Add(role, precents);
+                    }
+                    else
+                    {
+                        throw new InvalidConfigException("All keys in Risks must be keys in Roles!");
+                    }
+                }
+                catch (FormatException)
+                {
+                    throw new InvalidConfigException("Value of key in Risks section must be an Integer!");
+                }
+            }
+        </source-code>
+                      </source-codes>
+                    </operation>
+                    <operation id="oc57d0598a8a54c818db05456e58ae0c2212" cid="OP024" name="GetRiskBonus" creation-date="06/26/2021 17:45:26" type="int" type-id="int" visibility="public" static="true">
+                      <parameters>
+                        <parameter id="pb4fd1cae56614022b54062171895f07c" name="role" type="string" type-id="string" />
+                      </parameters>
+                      <source-codes>
+                        <source-code language="CSharp">
+                                                                 
+            return Risks.ContainsKey(role) ? Risks[role] : 0;
+        </source-code>
+                      </source-codes>
+                    </operation>
+                  </operations>
+                </item>
+                <item id="b7b4bbdaf82646c0a8ecc8996b2aeccb" cid="PROP010" type="property" name="Risks" style-class="" owner="0f28c2cef5c341da9a19c8c8a5960ce6" creator="" creation-date="06/26/2021 17:45:26" visibility="private">
+                  <documentation>
+                    <text>
+                      <default>
+                        <style font-name="Verdana" font-size="12">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </default>
+                      <styles />
+                      <content>
+                        <paragraph>
+                          <style />
+                          <p>
+                            <t> The function reads from App.config and serialize it into Risks.     
+ &lt;/summary&gt;
+ Get Ranks section from App.config
+</t>
+                          </p>
+                        </paragraph>
+                      </content>
+                    </text>
+                  </documentation>
+                  <feature static="true" />
+                  <structural-feature type="Dictionary&lt;string, int&gt;" type-id="Dictionary&lt;string, int&gt;" />
+                  <property />
+                </item>
+                <item id="1c04f86db4904819ba566bb24a13f00d" cid="C012" type="class" name="ConfigSerializer.Roles" style-class="" creator="" creation-date="06/26/2021 17:45:26" visibility="public">
+                  <stereotypes>
+                    <stereotype name="static" />
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tvb1d987a60d9a47d4bf04096ce32d6d65" name="namespace" type="text" multiple="false" value="MamasOmer.Classes" />
+                  </tagged-values>
+                  <documentation>
+                    <text>
+                      <default>
+                        <style font-name="Verdana" font-size="12">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </default>
+                      <styles />
+                      <content>
+                        <paragraph>
+                          <style />
+                          <p>
+                            <t> &lt;summary&gt;
+ This part takes charge of Roles section from config
+ &lt;/summary&gt;
+ Dictionary of Roles &lt;string, List&lt;string&gt;&gt; - string: name of role, List: list of ranks(each Role can have multiple ranks).        
+</t>
+                          </p>
+                        </paragraph>
+                      </content>
+                    </text>
+                  </documentation>
+                  <stereotype-instances>
+                    <stereotype id="1c04f86db4904819ba566bb24a13f00d_static_c" type="static" ref="" />
+                  </stereotype-instances>
+                  <owned-items>
+                    <owned-item ref="3104c4b818e246d2b91269fe7c7aeef9" />
+                  </owned-items>
+                  <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                    <text-style type="name" use-defaults="false" color="#FF555555" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                    <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                    <text-style type="text" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                    <text-style type="tagged-value" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                    <text-style type="stereotype" use-defaults="false" color="#FF555555" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                    <background type="solid" colors="#FFF2F2F2,#FFF2F2F2" />
+                    <border color="#FF2A2A2A" width="1" dash-style="Solid" />
+                    <label-connector color="#80000000" width="1" dash-style="Dash" />
+                    <alternate-styles>
+                      <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                        <text-style type="name" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                        <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                        <text-style type="text" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                        <text-style type="tagged-value" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                        <text-style type="stereotype" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                        <background type="solid" colors="#FF203D85,#FF203D85" />
+                        <border color="#FF203D85" width="2" dash-style="Solid" />
+                        <label-connector color="#80000000" width="1" dash-style="Dash" />
+                      </alternate-style>
+                    </alternate-styles>
+                  </style>
+                  <attributes>
+                    <attribute id="ade986e0410dc4f87a671204815aae293212" cid="PROP011" name="Roles" creation-date="06/26/2021 17:45:26" property-ref="3104c4b818e246d2b91269fe7c7aeef9" />
+                  </attributes>
+                  <operations>
+                    <operation id="obe72017d03cb4829b18f835b2687c5d8212" cid="OP025" name="RolesSerializer" creation-date="06/26/2021 17:45:26" type="" type-id="" visibility="private" static="true">
+                      <documentation>
+                        <text>
+                          <default>
+                            <style font-name="Verdana" font-size="12">
+                              <text>
+                                <solid-brush color="#FF000000" />
+                              </text>
+                            </style>
+                          </default>
+                          <styles />
+                          <content>
+                            <paragraph>
+                              <style />
+                              <p>
+                                <t> Create a key in Roles from key in App.config 
+ Get value of key. the value represents ranks, string of ranks seperate by ';'
+ Go through ranks after split
+add rank to it's specific key in Roles
+ &lt;summary&gt;
+ The function returns the ranks of specific role given.
+ &lt;/summary&gt;
+ &lt;param name="role"&gt;
+ string - key of role.
+ &lt;/param&gt;
+ &lt;returns&gt;
+ List of roles.
+ &lt;/returns&gt;
+</t>
+                              </p>
+                            </paragraph>
+                          </content>
+                        </text>
+                      </documentation>
+                      <source-codes>
+                        <source-code language="CSharp">
+                                                
+            var section = ConfigurationManager.GetSection("Roles") as NameValueCollection;
+                                                                                   
+            foreach (string role in section.Keys)
+            {
+                                                                
+                Roles.Add(role, new List&lt;string&gt;());
+
+                                                                                                
+                string ranks = section.Get(role);
+
+                                               
+                foreach (string rank in ranks.Split(';'))
+                {
+                    if (Ranks.ContainsKey(rank))
+                    {
+                                                                
+                        Roles[role].Add(rank);
+                    }
+                    else
+                    {
+                        throw new InvalidConfigException("All ranks in Roles value should be exist in ranks section!");
+                    }
+                }
+            }
+        </source-code>
+                      </source-codes>
+                    </operation>
+                    <operation id="ocb473848ca9746a3a7d0131894babf36212" cid="OP026" name="GetRoleRanks" creation-date="06/26/2021 17:45:26" type="List&lt;string&gt;" type-id="List&lt;string&gt;" visibility="public" static="true">
+                      <parameters>
+                        <parameter id="pbae00a7cdae94205a703633367708d4f" name="role" type="string" type-id="string" />
+                      </parameters>
+                      <source-codes>
+                        <source-code language="CSharp">
+            return Roles[role];
+        </source-code>
+                      </source-codes>
+                    </operation>
+                  </operations>
+                </item>
+                <item id="3104c4b818e246d2b91269fe7c7aeef9" cid="PROP011" type="property" name="Roles" style-class="" owner="1c04f86db4904819ba566bb24a13f00d" creator="" creation-date="06/26/2021 17:45:26" visibility="private">
+                  <documentation>
+                    <text>
+                      <default>
+                        <style font-name="Verdana" font-size="12">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </default>
+                      <styles />
+                      <content>
+                        <paragraph>
+                          <style />
+                          <p>
+                            <t> &lt;summary&gt;
+ The function reads from App.config and serialize it into Roles.
+ &lt;/summary&gt;
+ Get Roles section from App.config
+ Loop through the keys in 'Roles' section, each key represents a role
+</t>
+                          </p>
+                        </paragraph>
+                      </content>
+                    </text>
+                  </documentation>
+                  <feature static="true" />
+                  <structural-feature type="Dictionary&lt;string, List&lt;string&gt;&gt;" type-id="Dictionary&lt;string, List&lt;string&gt;&gt;" />
+                  <property />
+                </item>
+                <item id="edca989b9b164b038cb39a48cb5a2c00" cid="C013" type="class" name="Employee" style-class="" creator="" creation-date="06/26/2021 17:45:26" visibility="undefined">
+                  <tagged-values>
+                    <tagged-value id="tv114a068c89894d09904bfacee8287a7f" name="namespace" type="text" multiple="false" value="MamasOmer.Classes" />
+                  </tagged-values>
+                  <owned-items>
+                    <owned-item ref="fc6b968742014ea0ad190f6436f16033" />
+                    <owned-item ref="0bf0e695d61e47bdbc9ef1c09dbaf92f" />
+                    <owned-item ref="2e1f47af01544de2bc7a3c9ad5d360f5" />
+                    <owned-item ref="4ba9de60a2d34a59a74a467223b02894" />
+                    <owned-item ref="87bea943650c4bd9913f7ace3d46fe35" />
+                    <owned-item ref="8dce0313cf77468081d4261b0533e291" />
+                    <owned-item ref="8590974e609047c88c0eb1ea6a3516fa" />
+                    <owned-item ref="09e880f11b7141b0b5c13e334e8f5cfe" />
+                  </owned-items>
+                  <attributes>
+                    <attribute id="aa10006020bbc4c24a0114d39f333111e212" cid="PROP012" name="ID" creation-date="06/26/2021 17:45:26" property-ref="fc6b968742014ea0ad190f6436f16033" />
+                    <attribute id="aaffe4efa5acc4d23bb988241b18e41d1212" cid="PROP013" name="Name" creation-date="06/26/2021 17:45:26" property-ref="0bf0e695d61e47bdbc9ef1c09dbaf92f" />
+                    <attribute id="af88c504ec33242e694ef6ab7f41c2852212" cid="PROP014" name="Hours" creation-date="06/26/2021 17:45:26" property-ref="2e1f47af01544de2bc7a3c9ad5d360f5" />
+                    <attribute id="a6684b95b693649c4a7fdb1d8fc43948c212" cid="PROP015" name="bonus" creation-date="06/26/2021 17:45:26" property-ref="4ba9de60a2d34a59a74a467223b02894" />
+                    <attribute id="a8e4b489d16c747a08257778047bb63f2212" cid="PROP016" name="riskBonus" creation-date="06/26/2021 17:45:26" property-ref="87bea943650c4bd9913f7ace3d46fe35" />
+                    <attribute id="a962eb08af5374ad3b64e22f0dcf8d39f212" cid="PROP017" name="Role" creation-date="06/26/2021 17:45:26" property-ref="8dce0313cf77468081d4261b0533e291" />
+                    <attribute id="a998c0a0758a846d3ac73384e645aed7c212" cid="PROP018" name="StartTime" creation-date="06/26/2021 17:45:26" property-ref="8590974e609047c88c0eb1ea6a3516fa" />
+                    <attribute id="acff67596da5e4a1c81aa7c3fc3c845d0212" cid="PROP019" name="Month" creation-date="06/26/2021 17:45:26" property-ref="09e880f11b7141b0b5c13e334e8f5cfe" />
+                  </attributes>
+                  <operations>
+                    <operation id="o3e1a6938e3a54aa1beb4b0874b2893dc212" cid="OP027" name="Employee" creation-date="06/26/2021 17:45:26" type="" type-id="" visibility="public">
+                      <parameters>
+                        <parameter id="p5e4fc5a75112476d97eb1d26b4df308d" name="ID" type="Int64" type-id="Int64" />
+                        <parameter id="p3c28e440bd1c4d03ab9c3ed4ef3e5cd0" name="Name" type="string" type-id="string" />
+                        <parameter id="p5aad4af35abd4768aede03e954132c53" name="Role" type="string" type-id="string" />
+                        <parameter id="p9b057b3cf43240e185383dfcee14e504" name="Hours" type="Decimal" type-id="Decimal" />
+                        <parameter id="p1f90b55169454e7da4c5442830153dd1" name="StartTime" type="string" type-id="string" />
+                        <parameter id="p0ac57deeb069437e970636ccc769e05e" name="Month" type="Int64" type-id="Int64" />
+                      </parameters>
+                      <stereotypes>
+                        <stereotype>create</stereotype>
+                      </stereotypes>
+                      <documentation>
+                        <text>
+                          <default>
+                            <style font-name="Verdana" font-size="12">
+                              <text>
+                                <solid-brush color="#FF000000" />
+                              </text>
+                            </style>
+                          </default>
+                          <styles />
+                          <content>
+                            <paragraph>
+                              <style />
+                              <p>
+                                <t> set bonus of specific employee
+ set risk bonus of specific employee
+ &lt;summary&gt;
+ The function sum all bonuses of ranks and put it in bonus. called on init.
+ &lt;/summary&gt;
+ init value
+ loop over all ranks of this employee's Role
+ sum
+ set bonus. example: 80% =&gt; 1.8 for easier calculate later.
+ &lt;summary&gt;
+ The function set the riskBonus to Role's riskBonus. called on init;
+ &lt;/summary&gt;
+ init value
+</t>
+                              </p>
+                            </paragraph>
+                          </content>
+                        </text>
+                      </documentation>
+                    </operation>
+                    <operation id="o5d3a71f3e9af40ef9ad9e29a5c5abd4e212" cid="OP028" name="BonusCalculate" creation-date="06/26/2021 17:45:26" type="" type-id="" visibility="private">
+                      <documentation>
+                        <text>
+                          <default>
+                            <style font-name="Verdana" font-size="12">
+                              <text>
+                                <solid-brush color="#FF000000" />
+                              </text>
+                            </style>
+                          </default>
+                          <styles />
+                          <content>
+                            <paragraph>
+                              <style />
+                              <p>
+                                <t> add risk bonus
+ set riskBonus. example: 80% =&gt; 1.8 for easier calculate later.
+ &lt;summary&gt;
+ The function checks if there is a need to set Hours according to Role and the Hours he worked.
+ &lt;/summary&gt;
+ Loop over ranks of employee's Role
+ get constHours of rank
+ check if rank has constHours
+ get minHours of rank
+ check if employee worked enough Hours.
+</t>
+                              </p>
+                            </paragraph>
+                          </content>
+                        </text>
+                      </documentation>
+                      <source-codes>
+                        <source-code language="CSharp">
+                         
+            double bonus = 100;
+                                                          
+            foreach (string rank in ConfigSerializer.GetRoleRanks(this.Role))
+            {
+                      
+                bonus += ConfigSerializer.GetRankBonus(rank);
+            }
+                                                                         
+            this.bonus = bonus / 100;
+        </source-code>
+                      </source-codes>
+                    </operation>
+                    <operation id="oa49a711ea7aa4e1f9fccf1ad30e6be6e212" cid="OP029" name="RiskCalculate" creation-date="06/26/2021 17:45:26" type="" type-id="" visibility="private">
+                      <documentation>
+                        <text>
+                          <default>
+                            <style font-name="Verdana" font-size="12">
+                              <text>
+                                <solid-brush color="#FF000000" />
+                              </text>
+                            </style>
+                          </default>
+                          <styles />
+                          <content>
+                            <paragraph>
+                              <style />
+                              <p>
+                                <t> uses the maximum Hours between worked Hours and const Hours of rank.
+ &lt;summary&gt;
+ The function calculate the wage of employee.
+ &lt;/summary&gt;
+ &lt;returns&gt;The wage of the employee&lt;/returns&gt;
+ fist, check if there is a need to set employee's Hours
+calculation
+</t>
+                              </p>
+                            </paragraph>
+                          </content>
+                        </text>
+                      </documentation>
+                      <source-codes>
+                        <source-code language="CSharp">
+                         
+            double riskBonus = 100;
+                             
+            riskBonus += ConfigSerializer.GetRiskBonus(Role);
+                                                                             
+            this.riskBonus = riskBonus / 100;
+        </source-code>
+                      </source-codes>
+                    </operation>
+                    <operation id="ocfe23b93c8f440ca96b6cf3927728486212" cid="OP030" name="setConstHours" creation-date="06/26/2021 17:45:26" type="" type-id="" visibility="private">
+                      <documentation>
+                        <text>
+                          <default>
+                            <style font-name="Verdana" font-size="12">
+                              <text>
+                                <solid-brush color="#FF000000" />
+                              </text>
+                            </style>
+                          </default>
+                          <styles />
+                          <content>
+                            <paragraph>
+                              <style />
+                              <p>
+                                <t> &lt;summary&gt;
+ The function is in charge of managing shift entrace and exit. (calculate hours of work and updates).
+ &lt;/summary&gt;
+ Check if start of shift
+ Get current time
+ Get current month
+ Check if first shift of month
+ Set Month to current month 
+ Reset Hours. (monthly wage)
+ Convert date to string for DB.
+ Update on DB
+ End of shift
+ Get Current time
+ Convert string to DateTime for calculations
+ EndTime - startTime (in hours)
+</t>
+                              </p>
+                            </paragraph>
+                          </content>
+                        </text>
+                      </documentation>
+                      <source-codes>
+                        <source-code language="CSharp">
+                                                 
+            foreach (string rank in ConfigSerializer.GetRoleRanks(Role))
+            {
+                                         
+                int constHours = ConfigSerializer.GetConstHours(rank);
+                                               
+                if (constHours != 0)
+                {
+                                           
+                    int minHours = ConfigSerializer.GetMinHours(rank);
+                                                             
+                    if (Hours &gt;= minHours)
+                    {
+                                                                                               
+                        Hours = Math.Max(Hours, constHours);
+                        DBHandler.UpdateEmployee(this);
+                    }
+                }
+            }
+        </source-code>
+                      </source-codes>
+                    </operation>
+                    <operation id="o4a675640904444dea954c0a7366b9f51212" cid="OP031" name="WageCalculator" creation-date="06/26/2021 17:45:26" type="double" type-id="double" visibility="public">
+                      <documentation>
+                        <text>
+                          <default>
+                            <style font-name="Verdana" font-size="12">
+                              <text>
+                                <solid-brush color="#FF000000" />
+                              </text>
+                            </style>
+                          </default>
+                          <styles />
+                          <content>
+                            <paragraph>
+                              <style />
+                              <p>
+                                <t> Round number to 2 numbers after '.'
+ Add ended shift hours to total hours.
+ Reset StartTime (until next shift)
+ Updating the db. Hours and StartTime.
+</t>
+                              </p>
+                            </paragraph>
+                          </content>
+                        </text>
+                      </documentation>
+                      <source-codes>
+                        <source-code language="CSharp">
+                                                                     
+            setConstHours();
+                         
+            double wage = ((Hours * (ConfigSerializer.HourSalary * bonus)) * riskBonus);
+            return Math.Round(wage, 2);
+        </source-code>
+                      </source-codes>
+                    </operation>
+                    <operation id="o9c822dc3aca54813937deac25f63b6fe212" cid="OP032" name="Card" creation-date="06/26/2021 17:45:26" type="" type-id="" visibility="public">
+                      <source-codes>
+                        <source-code language="CSharp">
+                                      
+            if(StartTime == null)
+            {
+                                   
+                var now = DateTime.Now;
+                                    
+                var month = now.Month;
+
+                                                
+                if(month != Month)
+                {                    
+                                                  
+                    Month = month;
+                                                  
+                    Hours = 0;
+                }
+                                                 
+                StartTime = now.ToString();
+                               
+                DBHandler.UpdateEmployee(this);
+                Console.WriteLine($"Welcome {Name}! Have a great shift!");
+            }
+                           
+            else
+            {             
+                                   
+                DateTime endTime = DateTime.Now;
+                                                              
+                DateTime startTime = Convert.ToDateTime(StartTime);
+                                                 
+                double hoursWorked = double.Parse((endTime - startTime).TotalHours.ToString());
+                                                      
+                hoursWorked = Math.Round(hoursWorked, 2);
+                                                        
+                Hours += hoursWorked;
+                                                     
+                StartTime = null;
+                                                        
+                DBHandler.UpdateEmployee(this);
+                Console.WriteLine($"Goodbye {Name}! Hope you had a nice shift :)");
+            }
+        </source-code>
+                      </source-codes>
+                    </operation>
+                  </operations>
+                </item>
+                <item id="fc6b968742014ea0ad190f6436f16033" cid="PROP012" type="property" name="ID" style-class="" owner="edca989b9b164b038cb39a48cb5a2c00" creator="" creation-date="06/26/2021 17:45:26" visibility="public">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <documentation>
+                    <text>
+                      <default>
+                        <style font-name="Verdana" font-size="12">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </default>
+                      <styles />
+                      <content>
+                        <paragraph>
+                          <style />
+                          <p>
+                            <t> ID of employee
+</t>
+                          </p>
+                        </paragraph>
+                      </content>
+                    </text>
+                  </documentation>
+                  <stereotype-instances>
+                    <stereotype id="fc6b968742014ea0ad190f6436f16033_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="int" type-id="int" />
+                  <property />
+                </item>
+                <item id="0bf0e695d61e47bdbc9ef1c09dbaf92f" cid="PROP013" type="property" name="Name" style-class="" owner="edca989b9b164b038cb39a48cb5a2c00" creator="" creation-date="06/26/2021 17:45:26" visibility="public">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <documentation>
+                    <text>
+                      <default>
+                        <style font-name="Verdana" font-size="12">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </default>
+                      <styles />
+                      <content>
+                        <paragraph>
+                          <style />
+                          <p>
+                            <t> Hours employee worked
+</t>
+                          </p>
+                        </paragraph>
+                      </content>
+                    </text>
+                  </documentation>
+                  <stereotype-instances>
+                    <stereotype id="0bf0e695d61e47bdbc9ef1c09dbaf92f_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="string" type-id="string" />
+                  <property />
+                </item>
+                <item id="2e1f47af01544de2bc7a3c9ad5d360f5" cid="PROP014" type="property" name="Hours" style-class="" owner="edca989b9b164b038cb39a48cb5a2c00" creator="" creation-date="06/26/2021 17:45:26" visibility="public">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <documentation>
+                    <text>
+                      <default>
+                        <style font-name="Verdana" font-size="12">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </default>
+                      <styles />
+                      <content>
+                        <paragraph>
+                          <style />
+                          <p>
+                            <t> Bonus in accordance to his ranks
+ Bonus in accordance to Role's risk
+</t>
+                          </p>
+                        </paragraph>
+                      </content>
+                    </text>
+                  </documentation>
+                  <stereotype-instances>
+                    <stereotype id="2e1f47af01544de2bc7a3c9ad5d360f5_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="double" type-id="double" />
+                  <property />
+                </item>
+                <item id="4ba9de60a2d34a59a74a467223b02894" cid="PROP015" type="property" name="bonus" style-class="" owner="edca989b9b164b038cb39a48cb5a2c00" creator="" creation-date="06/26/2021 17:45:26" visibility="private">
+                  <documentation>
+                    <text>
+                      <default>
+                        <style font-name="Verdana" font-size="12">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </default>
+                      <styles />
+                      <content>
+                        <paragraph>
+                          <style />
+                          <p>
+                            <t> Role of employee (from config options)
+ StartTime of cuurent shift
+</t>
+                          </p>
+                        </paragraph>
+                      </content>
+                    </text>
+                  </documentation>
+                  <feature />
+                  <structural-feature type="double" type-id="double" />
+                  <property />
+                </item>
+                <item id="87bea943650c4bd9913f7ace3d46fe35" cid="PROP016" type="property" name="riskBonus" style-class="" owner="edca989b9b164b038cb39a48cb5a2c00" creator="" creation-date="06/26/2021 17:45:26" visibility="private">
+                  <documentation>
+                    <text>
+                      <default>
+                        <style font-name="Verdana" font-size="12">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </default>
+                      <styles />
+                      <content>
+                        <paragraph>
+                          <style />
+                          <p>
+                            <t> Represents last Month worked in
+</t>
+                          </p>
+                        </paragraph>
+                      </content>
+                    </text>
+                  </documentation>
+                  <feature />
+                  <structural-feature type="double" type-id="double" />
+                  <property />
+                </item>
+                <item id="8dce0313cf77468081d4261b0533e291" cid="PROP017" type="property" name="Role" style-class="" owner="edca989b9b164b038cb39a48cb5a2c00" creator="" creation-date="06/26/2021 17:45:26" visibility="public">
+                  <documentation>
+                    <text>
+                      <default>
+                        <style font-name="Verdana" font-size="12">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </default>
+                      <styles />
+                      <content>
+                        <paragraph>
+                          <style />
+                          <p>
+                            <t> &lt;summary&gt;
+ CTOR
+ &lt;/summary&gt;
+ &lt;param name="id"&gt;id of employee&lt;/param&gt;
+ &lt;param name="name"&gt;name (fname lname) of employee&lt;/param&gt;
+ &lt;param name="Role"&gt;Role of employee (from options in config)&lt;/param&gt;
+</t>
+                          </p>
+                        </paragraph>
+                      </content>
+                    </text>
+                  </documentation>
+                  <feature />
+                  <structural-feature type="string" type-id="string" />
+                  <property />
+                </item>
+                <item id="8590974e609047c88c0eb1ea6a3516fa" cid="PROP018" type="property" name="StartTime" style-class="" owner="edca989b9b164b038cb39a48cb5a2c00" creator="" creation-date="06/26/2021 17:45:26" visibility="public">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <stereotype-instances>
+                    <stereotype id="8590974e609047c88c0eb1ea6a3516fa_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="string" type-id="string" />
+                  <property />
+                </item>
+                <item id="09e880f11b7141b0b5c13e334e8f5cfe" cid="PROP019" type="property" name="Month" style-class="" owner="edca989b9b164b038cb39a48cb5a2c00" creator="" creation-date="06/26/2021 17:45:26" visibility="public">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <stereotype-instances>
+                    <stereotype id="09e880f11b7141b0b5c13e334e8f5cfe_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="int" type-id="int" />
+                  <property />
+                </item>
+                <item id="87187b0778cd4b20b0ced1a8d10fc5de" cid="C014" type="class" name="EmployeesManager" style-class="" creator="" creation-date="06/26/2021 17:45:26" visibility="undefined">
+                  <tagged-values>
+                    <tagged-value id="tv86bb3045b93a4178ae0cece58abce0d9" name="namespace" type="text" multiple="false" value="MamasOmer.Classes" />
+                  </tagged-values>
+                  <owned-items>
+                    <owned-item ref="8a0e000ceb49420e950002883a1ee0c3" />
+                  </owned-items>
+                  <attributes>
+                    <attribute id="a791bbbd41fdb4c25b867c17758c66f1d212" cid="PROP020" name="Employees" creation-date="06/26/2021 17:45:26" property-ref="8a0e000ceb49420e950002883a1ee0c3" />
+                  </attributes>
+                  <operations>
+                    <operation id="o4e7a5be17774401083eb44f0c85905c4212" cid="OP033" name="EmployeesManager" creation-date="06/26/2021 17:45:26" type="" type-id="" visibility="public">
+                      <stereotypes>
+                        <stereotype>create</stereotype>
+                      </stereotypes>
+                      <documentation>
+                        <text>
+                          <default>
+                            <style font-name="Verdana" font-size="12">
+                              <text>
+                                <solid-brush color="#FF000000" />
+                              </text>
+                            </style>
+                          </default>
+                          <styles />
+                          <content>
+                            <paragraph>
+                              <style />
+                              <p>
+                                <t> CTOR        
+ &lt;/summary&gt;
+ load employees using DBHandler to comunicate with db.
+ &lt;summary&gt;
+ The function gets employee's id as input from user and outputs it's wage
+ &lt;/summary&gt;
+ Input handler
+</t>
+                              </p>
+                            </paragraph>
+                          </content>
+                        </text>
+                      </documentation>
+                    </operation>
+                    <operation id="of706d4590b804715a7013a816f3d5ef3212" cid="OP034" name="GetEmployeeWage" creation-date="06/26/2021 17:45:26" type="" type-id="" visibility="public">
+                      <documentation>
+                        <text>
+                          <default>
+                            <style font-name="Verdana" font-size="12">
+                              <text>
+                                <solid-brush color="#FF000000" />
+                              </text>
+                            </style>
+                          </default>
+                          <styles />
+                          <content>
+                            <paragraph>
+                              <style />
+                              <p>
+                                <t> Validate number input
+ Get wanted employee by id using Linq
+ Check if there are results
+ Get month name as string
+ Output employee's wage
+ &lt;summary&gt;
+  The function gets employee's id as input from user and insert card for specific employee.
+  Works for start of shift and end of shift.
+ &lt;/summary&gt;
+ handle input
+ validate number input
+</t>
+                              </p>
+                            </paragraph>
+                          </content>
+                        </text>
+                      </documentation>
+                      <source-codes>
+                        <source-code language="CSharp">
+                            
+            int id;
+            Console.Write("Enter Employee's ID: ");
+                                    
+            while (true)
+            {
+                try
+                {
+                    id = Int32.Parse(Console.ReadLine());
+                    break;
+                }
+                catch
+                {
+                    Console.WriteLine("Please enter a number!");
+                }
+            }
+                                                   
+            var result = Employees.Where(employee =&gt; employee.ID == id).ToList();
+                                         
+            if (result.Count &gt; 0)
+            {
+                Employee employee = result[0];
+                                           
+                DateTimeFormatInfo mfi = new DateTimeFormatInfo();                
+                string month = mfi.GetMonthName(employee.Month);
+                                         
+                Console.WriteLine($"The wage of {employee.Name} is {employee.WageCalculator()} right to {month}");
+            }
+            else
+            {
+                Console.WriteLine($"No customer with ID:{id} found!");
+            }
+        </source-code>
+                      </source-codes>
+                    </operation>
+                    <operation id="o4e8fe0c29fa44a83a2925fe596b3126d213" cid="OP035" name="InsertCard" creation-date="06/26/2021 17:45:26" type="" type-id="" visibility="public">
+                      <documentation>
+                        <text>
+                          <default>
+                            <style font-name="Verdana" font-size="12">
+                              <text>
+                                <solid-brush color="#FF000000" />
+                              </text>
+                            </style>
+                          </default>
+                          <styles />
+                          <content>
+                            <paragraph>
+                              <style />
+                              <p>
+                                <t> Get employee by id using Linq
+ insert card
+ No found output
+ &lt;summary&gt;
+ The function lets the user search employee by his letters or part of name (checks contains)
+ &lt;/summary&gt;
+ Input handle
+ Get employees using Linq
+ Print table of results
+ &lt;summary&gt;
+ The function gets list of employees and prints it as table using ConsoleTable
+ &lt;/summary&gt;
+ &lt;param name="employees"&gt;
+ List of employees
+ &lt;/param&gt;
+ Set columns
+</t>
+                              </p>
+                            </paragraph>
+                          </content>
+                        </text>
+                      </documentation>
+                      <source-codes>
+                        <source-code language="CSharp">
+                           
+            int id;
+            Console.Write("Enter Employee's ID: ");
+                                    
+            while(true)
+            {
+                try
+                {
+                    id = Int32.Parse(Console.ReadLine());
+                    break;
+                }
+                catch
+                {
+                    Console.WriteLine("Please enter a number!");
+                }
+            }            
+                                            
+            var result = Employees.Where(employee =&gt; employee.ID == id).ToList();
+            if (result.Count &gt; 0)
+            {
+                Employee employee = result[0];
+                              
+                employee.Card();
+            }
+            else
+            {
+                                  
+                Console.WriteLine($"No customer with ID:{id} found!");
+            }
+        </source-code>
+                      </source-codes>
+                    </operation>
+                    <operation id="o1779235404ec4b8c8eee5891c28d544d213" cid="OP036" name="SearchEmployees" creation-date="06/26/2021 17:45:26" type="" type-id="" visibility="public">
+                      <documentation>
+                        <text>
+                          <default>
+                            <style font-name="Verdana" font-size="12">
+                              <text>
+                                <solid-brush color="#FF000000" />
+                              </text>
+                            </style>
+                          </default>
+                          <styles />
+                          <content>
+                            <paragraph>
+                              <style />
+                              <p>
+                                <t> Loop over employees and adds to table
+ Output table
+</t>
+                              </p>
+                            </paragraph>
+                          </content>
+                        </text>
+                      </documentation>
+                      <source-codes>
+                        <source-code language="CSharp">
+                           
+            Console.Write("Enter name or part of it (keep empty to show all): ");
+            string searchText = Console.ReadLine().ToLower();
+                                       
+            var result = Employees.Where(employee =&gt; employee.Name.ToLower().Contains(searchText)).ToList();
+                                     
+            printEmployeeTable(result);            
+        </source-code>
+                      </source-codes>
+                    </operation>
+                    <operation id="o043be1ab0e7f48239149b306647f0bdd213" cid="OP037" name="printEmployeeTable" creation-date="06/26/2021 17:45:26" type="" type-id="" visibility="public">
+                      <parameters>
+                        <parameter id="p78435d3de509430b883e6910f07a2afa" name="employees" type="List&lt;Employee&gt;" type-id="List&lt;Employee&gt;" />
+                      </parameters>
+                      <source-codes>
+                        <source-code language="CSharp">
+                          
+            var table = new ConsoleTable("ID", "Name", "Role");            
+                                                    
+            foreach(Employee employee in employees)
+            {
+                table.AddRow(employee.ID, employee.Name, employee.Role);
+            }
+                           
+            table.Write();
+        </source-code>
+                      </source-codes>
+                    </operation>
+                  </operations>
+                </item>
+                <item id="8a0e000ceb49420e950002883a1ee0c3" cid="PROP020" type="property" name="Employees" style-class="" owner="87187b0778cd4b20b0ced1a8d10fc5de" creator="" creation-date="06/26/2021 17:45:26" visibility="private">
+                  <documentation>
+                    <text>
+                      <default>
+                        <style font-name="Verdana" font-size="12">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </default>
+                      <styles />
+                      <content>
+                        <paragraph>
+                          <style />
+                          <p>
+                            <t> list of employees
+ &lt;summary&gt;
+</t>
+                          </p>
+                        </paragraph>
+                      </content>
+                    </text>
+                  </documentation>
+                  <feature />
+                  <structural-feature type="List&lt;Employee&gt;" type-id="List&lt;Employee&gt;" />
+                  <property />
+                </item>
+              </abstract-items>
+              <sub-models>
+                <model id="pb4c8570f1f9d40a6a0a8d09216025b13_351800059" name="DB" namespace="MamasOmer.Classes.DB" order-index="1">
+                  <meta>
+                    <authors>
+                      <author> </author>
+                    </authors>
+                    <description />
+                    <creation-date>06/26/2021 17:45:26</creation-date>
+                    <change-date>01/01/0001 00:00:00</change-date>
+                    <revision-count>0</revision-count>
+                    <version />
+                  </meta>
+                  <abstract-items>
+                    <item id="fab789daa278485ba16e3440e0d97429" cid="C002" type="class" name="DBHandler" style-class="" creator="" creation-date="06/26/2021 17:45:26" visibility="undefined">
+                      <tagged-values>
+                        <tagged-value id="tv7e9dabbca39945af86d8e18c91706a1e" name="namespace" type="text" multiple="false" value="MamasOmer.Classes.DB" />
+                      </tagged-values>
+                      <documentation>
+                        <text>
+                          <default>
+                            <style font-name="Verdana" font-size="12">
+                              <text>
+                                <solid-brush color="#FF000000" />
+                              </text>
+                            </style>
+                          </default>
+                          <styles />
+                          <content>
+                            <paragraph>
+                              <style />
+                              <p>
+                                <t> &lt;summary&gt;
+ The class takes controle of db actions
+ &lt;/summary&gt;
+ &lt;summary&gt;
+ The function loads all employees from the db and returns List of employees.
+ &lt;/summary&gt;
+ &lt;returns&gt;
+ List of employees
+ &lt;/returns&gt;
+</t>
+                              </p>
+                            </paragraph>
+                          </content>
+                        </text>
+                      </documentation>
+                      <operations>
+                        <operation id="o6d71e288d9894fb5b9d95ae496d3e873204" cid="OP002" name="LoadEmployees" creation-date="06/26/2021 17:45:26" type="List&lt;Employee&gt;" type-id="List&lt;Employee&gt;" visibility="public" static="true">
+                          <documentation>
+                            <text>
+                              <default>
+                                <style font-name="Verdana" font-size="12">
+                                  <text>
+                                    <solid-brush color="#FF000000" />
+                                  </text>
+                                </style>
+                              </default>
+                              <styles />
+                              <content>
+                                <paragraph>
+                                  <style />
+                                  <p>
+                                    <t> Use 'using' for safe connection
+ Query the db for all employees
+ Cast returned type to List (for easier use later)
+ &lt;summary&gt;
+ The function gets an employee and updates it's Hours and startTime in DB.
+ &lt;/summary&gt;
+ &lt;param name="employee"&gt;&lt;/param&gt;
+ Use 'using' for safe connection
+ Updates employee's Hours and StartTime
+</t>
+                                  </p>
+                                </paragraph>
+                              </content>
+                            </text>
+                          </documentation>
+                          <source-codes>
+                            <source-code language="CSharp">
+                                              
+            using (IDbConnection conn = new SQLiteConnection(LoadConnectionString()))
+            {
+                                                 
+                var result = conn.Query&lt;Employee&gt;("SELECT * FROM EMPLOYEES", new DynamicParameters());
+                                                                    
+                return result.ToList();
+            }
+        </source-code>
+                          </source-codes>
+                        </operation>
+                        <operation id="o85d522a4032843108d300d50eaf2dc4e204" cid="OP003" name="UpdateEmployee" creation-date="06/26/2021 17:45:26" type="" type-id="" visibility="public" static="true">
+                          <parameters>
+                            <parameter id="pe13aedc2cf734e3a888518ae9ab70bb3" name="employee" type="Employee" type-id="Employee" />
+                          </parameters>
+                          <documentation>
+                            <text>
+                              <default>
+                                <style font-name="Verdana" font-size="12">
+                                  <text>
+                                    <solid-brush color="#FF000000" />
+                                  </text>
+                                </style>
+                              </default>
+                              <styles />
+                              <content>
+                                <paragraph>
+                                  <style />
+                                  <p>
+                                    <t> &lt;summary&gt;
+ The function returns the connection string from App.config        
+ &lt;/summary&gt;
+ &lt;param name="id"&gt;
+ Id of connection string from App.config. Default value is 'Default'
+ &lt;/param&gt;
+ &lt;returns&gt;Connection string&lt;/returns&gt;
+</t>
+                                  </p>
+                                </paragraph>
+                              </content>
+                            </text>
+                          </documentation>
+                          <source-codes>
+                            <source-code language="CSharp">
+                                              
+            using (IDbConnection conn = new SQLiteConnection(LoadConnectionString()))
+            {                
+                                                         
+                conn.Execute("UPDATE EMPLOYEES SET Hours=@Hours, StartTime=@StartTime, Month=@Month WHERE ID=@ID", employee);                
+            }
+        </source-code>
+                          </source-codes>
+                        </operation>
+                        <operation id="o94efb09335cf4e358a1b9dc1f72ea45b205" cid="OP004" name="LoadConnectionString" creation-date="06/26/2021 17:45:26" type="string" type-id="string" visibility="private" static="true">
+                          <parameters>
+                            <parameter id="p64307a9deb4d42fea81d335e54728242" name="id" type="string" type-id="string" default-value="&quot;Default&quot;" />
+                          </parameters>
+                          <source-codes>
+                            <source-code language="CSharp">            
+            return ConfigurationManager.ConnectionStrings[id].ConnectionString;
+        </source-code>
+                          </source-codes>
+                        </operation>
+                      </operations>
+                    </item>
+                  </abstract-items>
+                  <sub-models />
+                </model>
+                <model id="pe9632208a5154c91901e981f9d7e37c4_723278521" name="Exceptions" namespace="MamasOmer.Classes.Exceptions" order-index="2">
+                  <meta>
+                    <authors>
+                      <author> </author>
+                    </authors>
+                    <description />
+                    <creation-date>06/26/2021 17:45:26</creation-date>
+                    <change-date>01/01/0001 00:00:00</change-date>
+                    <revision-count>0</revision-count>
+                    <version />
+                  </meta>
+                  <abstract-items />
+                  <sub-models />
+                  <diagram type="uml-class" id="p20be82f1e1d14716a514b5e1ae18d72a_160943910" name="Exceptions" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" namespace="MamasOmer.Classes.Exceptions">
+                    <style>
+                      <background-color index="1" color="#FFFFFFFF" />
+                      <background-color index="2" color="#FFFFFFFF" />
+                      <background-type type="vertical-linear" />
+                    </style>
+                    <meta>
+                      <authors>
+                        <author> </author>
+                      </authors>
+                      <description />
+                      <creation-date>06/26/2021 17:45:26</creation-date>
+                      <change-date>06/26/2021 17:45:26</change-date>
+                      <revision-count>0</revision-count>
+                      <version />
+                    </meta>
+                    <abstract-items />
+                    <layer id="b6169f6c1c23444f970527d3d47384d7" name="Default" visible="true" enabled="true" locked="false" />
+                  </diagram>
+                </model>
+                <model id="pa63c960a86f34658a1c79f5f396afa39_444272803" name="Menus" namespace="MamasOmer.Classes.Menus" order-index="3">
+                  <meta>
+                    <authors>
+                      <author> </author>
+                    </authors>
+                    <description />
+                    <creation-date>06/26/2021 17:45:26</creation-date>
+                    <change-date>01/01/0001 00:00:00</change-date>
+                    <revision-count>0</revision-count>
+                    <version />
+                  </meta>
+                  <abstract-items>
+                    <item id="27cd7918a4864b70b43890f345eeef15" cid="C004" type="class" name="MenuCreator" style-class="" creator="" creation-date="06/26/2021 17:45:26" visibility="undefined">
+                      <tagged-values>
+                        <tagged-value id="tv4ea85c5c38484646addbf7a47726589e" name="namespace" type="text" multiple="false" value="MamasOmer.Classes.Menus" />
+                      </tagged-values>
+                      <documentation>
+                        <text>
+                          <default>
+                            <style font-name="Verdana" font-size="12">
+                              <text>
+                                <solid-brush color="#FF000000" />
+                              </text>
+                            </style>
+                          </default>
+                          <styles />
+                          <content>
+                            <paragraph>
+                              <style />
+                              <p>
+                                <t> &lt;summary&gt;
+ The class represents a menu and takes control of user input and executing the wanted options actions. 
+ &lt;/summary&gt;
+ &lt;summary&gt;
+     CTOR
+ &lt;/summary&gt;
+</t>
+                              </p>
+                            </paragraph>
+                          </content>
+                        </text>
+                      </documentation>
+                      <owned-items>
+                        <owned-item ref="1b254991cf19486bab04c0540e36a937" />
+                      </owned-items>
+                      <attributes>
+                        <attribute id="a3348887f56e846819872c4c0850d6c27209" cid="PROP001" name="_optionsList" creation-date="06/26/2021 17:45:26" property-ref="1b254991cf19486bab04c0540e36a937" />
+                      </attributes>
+                      <operations>
+                        <operation id="o62f8bbf81989490cbf95f2fa4a09be9d209" cid="OP006" name="MenuCreator" creation-date="06/26/2021 17:45:26" type="" type-id="" visibility="public">
+                          <stereotypes>
+                            <stereotype>create</stereotype>
+                          </stereotypes>
+                          <documentation>
+                            <text>
+                              <default>
+                                <style font-name="Verdana" font-size="12">
+                                  <text>
+                                    <solid-brush color="#FF000000" />
+                                  </text>
+                                </style>
+                              </default>
+                              <styles />
+                              <content>
+                                <paragraph>
+                                  <style />
+                                  <p>
+                                    <t> &lt;summary&gt;
+  This function creates an option (Option struct) and adds it as an option to the list.
+ &lt;/summary&gt;
+ &lt;param name="text"&gt;
+  The text that describes what the action does (the text shown in menu).   
+ &lt;/param&gt;
+ &lt;param name="action"&gt;The action to run when user chooses this option.&lt;/param&gt;
+ Add option to menu
+</t>
+                                  </p>
+                                </paragraph>
+                              </content>
+                            </text>
+                          </documentation>
+                        </operation>
+                        <operation id="o198ba0d09c9c4991ad9fbadb9fef1b05209" cid="OP007" name="AddOption" creation-date="06/26/2021 17:45:26" type="" type-id="" visibility="public">
+                          <parameters>
+                            <parameter id="pccf10555654347e29607c21d9ad75816" name="text" type="string" type-id="string" />
+                            <parameter id="p9aaba7a33a7341b19be767d2fb9e5be5" name="action" type="Action" type-id="Action" />
+                          </parameters>
+                          <documentation>
+                            <text>
+                              <default>
+                                <style font-name="Verdana" font-size="12">
+                                  <text>
+                                    <solid-brush color="#FF000000" />
+                                  </text>
+                                </style>
+                              </default>
+                              <styles />
+                              <content>
+                                <paragraph>
+                                  <style />
+                                  <p>
+                                    <t> &lt;summary&gt;
+  This function prints the menu created.
+  &lt;remarks&gt;
+   The function iterates through all the options and prints it as a nice output for the user.
+ &lt;/remarks&gt;       
+ &lt;/summary&gt;
+ Some fun with colors 😁
+ Iterating over the options list and printing each option with its number.
+</t>
+                                  </p>
+                                </paragraph>
+                              </content>
+                            </text>
+                          </documentation>
+                          <source-codes>
+                            <source-code language="CSharp">
+                                 
+            _optionsList.Add(new Option(text, action));
+        </source-code>
+                          </source-codes>
+                        </operation>
+                        <operation id="oc8a1bf004a784ffcbf89a9e1d25d8b0d209" cid="OP008" name="PrintMenu" creation-date="06/26/2021 17:45:26" type="" type-id="" visibility="private">
+                          <documentation>
+                            <text>
+                              <default>
+                                <style font-name="Verdana" font-size="12">
+                                  <text>
+                                    <solid-brush color="#FF000000" />
+                                  </text>
+                                </style>
+                              </default>
+                              <styles />
+                              <content>
+                                <paragraph>
+                                  <style />
+                                  <p>
+                                    <t> &lt;summary&gt;
+ This function is gets choice from user and validates it.
+ &lt;remarks&gt;
+ The validation includes type (checks if input is number) and value (checks if number is in options range).
+ &lt;/remarks&gt;
+ &lt;/summary&gt;
+ &lt;returns&gt;
+ Users choice
+ &lt;/returns&gt;
+ Loop until passing the validation checks.
+ Get user's input.
+ Check if choice is in the options list and if positive.
+ Got to here means all good
+</t>
+                                  </p>
+                                </paragraph>
+                              </content>
+                            </text>
+                          </documentation>
+                          <source-codes>
+                            <source-code language="CSharp">
+                                      
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("*****************");
+            Console.WriteLine("Menu:");
+                                                                                        
+            foreach (var (opt, index) in _optionsList.Select((value, i) =&gt; (value, i)))
+            {
+                Console.WriteLine($" {index+1}. {opt.Text}");
+            }
+            Console.WriteLine(" 0. Exit");
+            Console.WriteLine("*****************");
+            Console.ForegroundColor = ConsoleColor.White;
+        </source-code>
+                          </source-codes>
+                        </operation>
+                        <operation id="o412b51612d7c412e800c12e7c824868e209" cid="OP009" name="validateInput" creation-date="06/26/2021 17:45:26" type="int" type-id="int" visibility="private">
+                          <documentation>
+                            <text>
+                              <default>
+                                <style font-name="Verdana" font-size="12">
+                                  <text>
+                                    <solid-brush color="#FF000000" />
+                                  </text>
+                                </style>
+                              </default>
+                              <styles />
+                              <content>
+                                <paragraph>
+                                  <style />
+                                  <p>
+                                    <t> Returns choice after passed validation checks.
+ &lt;summary&gt;
+ This function runs the menu.
+ &lt;remarks&gt;
+ The function is the "main" of Menu.Its in charge of outputing the menu and running it until the user quits it, then printing a goodbye message.
+ &lt;/remarks&gt;
+ &lt;/summary&gt;
+ Loop until user quits the menu.
+ Output the menu.
+ Get user's choice.
+ Check if user choosed 0 (Exit). If true, print a nice goodbye message and break the loop.
+ Run chosen option's action. 
+</t>
+                                  </p>
+                                </paragraph>
+                              </content>
+                            </text>
+                          </documentation>
+                          <source-codes>
+                            <source-code language="CSharp">
+            int choice;
+            Console.Write("Please choose an option: ");
+                                                        
+            while (true)
+            {
+                try
+                {
+                                        
+                    choice = Int32.Parse(Console.ReadLine());
+                                                                              
+                    if (choice &gt; _optionsList.Count || choice &lt; 0)
+                    {
+                        throw new OverflowException();
+                    }
+                                                 
+                    break;
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Choice must be a number: ");
+                }
+                catch (OverflowException)
+                {
+                    Console.WriteLine("Enter a number from the list please: ");
+                }
+            }
+                                                             
+            return choice;
+        </source-code>
+                          </source-codes>
+                        </operation>
+                        <operation id="oa0d4054ec99d454bba702b6a1007bb6a209" cid="OP010" name="Run" creation-date="06/26/2021 17:45:26" type="" type-id="" visibility="public">
+                          <source-codes>
+                            <source-code language="CSharp">
+            int choice;
+                                              
+            while (true)
+            {
+                                   
+                PrintMenu();
+                                     
+                choice = validateInput();
+                Console.Clear();
+                                                                                                            
+                if (choice == 0)
+                {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("Thank you! GoodBye");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    break;
+                }
+                                               
+                _optionsList[choice - 1].Run();
+            }
+        </source-code>
+                          </source-codes>
+                        </operation>
+                      </operations>
+                    </item>
+                    <item id="1b254991cf19486bab04c0540e36a937" cid="PROP001" type="property" name="_optionsList" style-class="" owner="27cd7918a4864b70b43890f345eeef15" creator="" creation-date="06/26/2021 17:45:26" visibility="private">
+                      <feature />
+                      <structural-feature type="List&lt;Option&gt;" type-id="List&lt;Option&gt;" />
+                      <property />
+                    </item>
+                    <item id="48a278ed0118418b8256090795d7a181" cid="C005" type="class" name="MenuCreator" style-class="" creator="" creation-date="06/26/2021 17:45:26" visibility="undefined">
+                      <tagged-values>
+                        <tagged-value id="tve1b58fd53feb4b97a4387cc0a03e33b0" name="namespace" type="text" multiple="false" value="MamasOmer.Classes.Menus" />
+                      </tagged-values>
+                    </item>
+                    <item id="2bc2bc42378249989b0b3e541e656a39" cid="C006" type="class" name="Option" style-class="" creator="" creation-date="06/26/2021 17:45:26" visibility="private">
+                      <stereotypes>
+                        <stereotype name="struct" />
+                      </stereotypes>
+                      <tagged-values>
+                        <tagged-value id="tv04311af9c98644d48302992cc41ab6c8" name="namespace" type="text" multiple="false" value="MamasOmer.Classes.Menus" />
+                      </tagged-values>
+                      <documentation>
+                        <text>
+                          <default>
+                            <style font-name="Verdana" font-size="12">
+                              <text>
+                                <solid-brush color="#FF000000" />
+                              </text>
+                            </style>
+                          </default>
+                          <styles />
+                          <content>
+                            <paragraph>
+                              <style />
+                              <p>
+                                <t> &lt;summary&gt;
+ Struct that represents a menu option.
+ &lt;remarks&gt;
+ Built from text and action. 
+ &lt;/remarks&gt;
+ &lt;/summary&gt;
+ &lt;summary&gt;
+ CTOR
+</t>
+                              </p>
+                            </paragraph>
+                          </content>
+                        </text>
+                      </documentation>
+                      <stereotype-instances>
+                        <stereotype id="2bc2bc42378249989b0b3e541e656a39_struct_c" type="struct" ref="" />
+                      </stereotype-instances>
+                      <owned-items>
+                        <owned-item ref="b1e5e210b34d4e5b9870f64e81e6ac29" />
+                        <owned-item ref="a91a61d8ff514a39baa86039fd258b81" />
+                      </owned-items>
+                      <attributes>
+                        <attribute id="a82c2ad6e38e1424985f55709704540c4211" cid="PROP002" name="Text" creation-date="06/26/2021 17:45:26" property-ref="b1e5e210b34d4e5b9870f64e81e6ac29" />
+                        <attribute id="a14173b92c484446f821c047402339be6211" cid="PROP003" name="_action" creation-date="06/26/2021 17:45:26" property-ref="a91a61d8ff514a39baa86039fd258b81" />
+                      </attributes>
+                      <operations>
+                        <operation id="ofcbb40188de04d979d1342e2d9b930bb212" cid="OP011" name="Option" creation-date="06/26/2021 17:45:26" type="" type-id="" visibility="public">
+                          <parameters>
+                            <parameter id="p3378eb4998bf48b88717d92fb6f9a818" name="text" type="string" type-id="string" />
+                            <parameter id="p490b2b2f5e764aa0b34536705babddf2" name="action" type="Action" type-id="Action" />
+                          </parameters>
+                          <stereotypes>
+                            <stereotype>create</stereotype>
+                          </stereotypes>
+                          <documentation>
+                            <text>
+                              <default>
+                                <style font-name="Verdana" font-size="12">
+                                  <text>
+                                    <solid-brush color="#FF000000" />
+                                  </text>
+                                </style>
+                              </default>
+                              <styles />
+                              <content>
+                                <paragraph>
+                                  <style />
+                                  <p>
+                                    <t> &lt;summary&gt;
+ The function runs _action.            
+ &lt;/summary&gt;
+</t>
+                                  </p>
+                                </paragraph>
+                              </content>
+                            </text>
+                          </documentation>
+                        </operation>
+                        <operation id="o2b623aa62a9445579535fa9bdf556448212" cid="OP012" name="Run" creation-date="06/26/2021 17:45:26" type="" type-id="" visibility="public">
+                          <source-codes>
+                            <source-code language="CSharp">
+                _action();
+            </source-code>
+                          </source-codes>
+                        </operation>
+                      </operations>
+                    </item>
+                    <item id="82c11a6e7d5245dc979662d0d490b1b9" cid="CNT001" type="containment" name="" style-class="" creator="" creation-date="06/26/2021 17:45:26" from="2bc2bc42378249989b0b3e541e656a39" />
+                    <item id="b1e5e210b34d4e5b9870f64e81e6ac29" cid="PROP002" type="property" name="Text" style-class="" owner="2bc2bc42378249989b0b3e541e656a39" creator="" creation-date="06/26/2021 17:45:26" visibility="public">
+                      <stereotypes>
+                        <stereotype name="property" />
+                      </stereotypes>
+                      <documentation>
+                        <text>
+                          <default>
+                            <style font-name="Verdana" font-size="12">
+                              <text>
+                                <solid-brush color="#FF000000" />
+                              </text>
+                            </style>
+                          </default>
+                          <styles />
+                          <content>
+                            <paragraph>
+                              <style />
+                              <p>
+                                <t> &lt;/summary&gt;
+ &lt;param name="text"&gt;The text that describes what the action does (the text shown in menu).&lt;/param&gt;
+ &lt;param name="action"&gt;The action to run when user chooses this option.&lt;/param&gt;
+</t>
+                              </p>
+                            </paragraph>
+                          </content>
+                        </text>
+                      </documentation>
+                      <stereotype-instances>
+                        <stereotype id="b1e5e210b34d4e5b9870f64e81e6ac29_property_c" type="property" ref="" />
+                      </stereotype-instances>
+                      <feature />
+                      <structural-feature type="string" type-id="string" />
+                      <property />
+                    </item>
+                    <item id="a91a61d8ff514a39baa86039fd258b81" cid="PROP003" type="property" name="_action" style-class="" owner="2bc2bc42378249989b0b3e541e656a39" creator="" creation-date="06/26/2021 17:45:26" visibility="private">
+                      <feature />
+                      <structural-feature type="Action" type-id="Action" />
+                      <property />
+                    </item>
+                    <item id="236d6a1da8554542a2ca32cc614e93ad" cid="C007" type="class" name="MainMenu" style-class="" creator="" creation-date="06/26/2021 17:45:26" visibility="undefined">
+                      <tagged-values>
+                        <tagged-value id="tv96f1140e946f4752a21c75ee31604e9c" name="namespace" type="text" multiple="false" value="MamasOmer.Classes.Menus" />
+                      </tagged-values>
+                      <owned-items>
+                        <owned-item ref="4f13f673790746a386dd19999b310f4f" />
+                        <owned-item ref="22c58fbe769349edb0ec16faaf1e0bd4" />
+                      </owned-items>
+                      <attributes>
+                        <attribute id="a9a28b87554894ff08cf28a8053efcdf8212" cid="PROP004" name="_menu" creation-date="06/26/2021 17:45:26" property-ref="4f13f673790746a386dd19999b310f4f" />
+                        <attribute id="a6386f52e48654ac5a959e714bb08217b212" cid="PROP005" name="_manager" creation-date="06/26/2021 17:45:26" property-ref="22c58fbe769349edb0ec16faaf1e0bd4" />
+                      </attributes>
+                      <operations>
+                        <operation id="o2a33e624becb4df9bdd7bdd53d5d8436212" cid="OP013" name="MainMenu" creation-date="06/26/2021 17:45:26" type="" type-id="" visibility="public">
+                          <stereotypes>
+                            <stereotype>create</stereotype>
+                          </stereotypes>
+                          <documentation>
+                            <text>
+                              <default>
+                                <style font-name="Verdana" font-size="12">
+                                  <text>
+                                    <solid-brush color="#FF000000" />
+                                  </text>
+                                </style>
+                              </default>
+                              <styles />
+                              <content>
+                                <paragraph>
+                                  <style />
+                                  <p>
+                                    <t> &lt;summary&gt;
+ CTOR
+ &lt;/summary&gt;
+ Init
+ Add options to menu
+ &lt;summary&gt;
+ The function runs the menu created on CTOR
+ &lt;/summary&gt;
+</t>
+                                  </p>
+                                </paragraph>
+                              </content>
+                            </text>
+                          </documentation>
+                        </operation>
+                        <operation id="o1d645b95da2f476fa69d4bb346321d98212" cid="OP014" name="Run" creation-date="06/26/2021 17:45:26" type="" type-id="" visibility="public">
+                          <documentation>
+                            <text>
+                              <default>
+                                <style font-name="Verdana" font-size="12">
+                                  <text>
+                                    <solid-brush color="#FF000000" />
+                                  </text>
+                                </style>
+                              </default>
+                              <styles />
+                              <content>
+                                <paragraph>
+                                  <style />
+                                  <p>
+                                    <t> Run menu
+</t>
+                                  </p>
+                                </paragraph>
+                              </content>
+                            </text>
+                          </documentation>
+                          <source-codes>
+                            <source-code language="CSharp">
+                       
+            _menu.Run();
+        </source-code>
+                          </source-codes>
+                        </operation>
+                      </operations>
+                    </item>
+                    <item id="4f13f673790746a386dd19999b310f4f" cid="PROP004" type="property" name="_menu" style-class="" owner="236d6a1da8554542a2ca32cc614e93ad" creator="" creation-date="06/26/2021 17:45:26" visibility="private">
+                      <documentation>
+                        <text>
+                          <default>
+                            <style font-name="Verdana" font-size="12">
+                              <text>
+                                <solid-brush color="#FF000000" />
+                              </text>
+                            </style>
+                          </default>
+                          <styles />
+                          <content>
+                            <paragraph>
+                              <style />
+                              <p>
+                                <t> Base menu
+</t>
+                              </p>
+                            </paragraph>
+                          </content>
+                        </text>
+                      </documentation>
+                      <feature />
+                      <structural-feature type="MenuCreator" type-id="Class:27cd7918a4864b70b43890f345eeef15" />
+                      <property />
+                    </item>
+                    <item id="22c58fbe769349edb0ec16faaf1e0bd4" cid="PROP005" type="property" name="_manager" style-class="" owner="236d6a1da8554542a2ca32cc614e93ad" creator="" creation-date="06/26/2021 17:45:26" visibility="private">
+                      <feature />
+                      <structural-feature type="EmployeesManager" type-id="Class:87187b0778cd4b20b0ced1a8d10fc5de" />
+                      <property />
+                    </item>
+                    <item id="720c8badd0984cedb9a21cc045e32a87" cid="REL001" type="relationship" name="" style-class="" creator="" creation-date="06/26/2021 17:45:26" from="236d6a1da8554542a2ca32cc614e93ad" to="27cd7918a4864b70b43890f345eeef15" visibility="package">
+                      <relation from="236d6a1da8554542a2ca32cc614e93ad" to="27cd7918a4864b70b43890f345eeef15" derived="false">
+                        <start-role id="umlar-68dc0242-2d96-40d3-959f-5e8f6c71cb7a" name="" navigability="" association-type="composition" visibility="private" />
+                        <end-role id="umlar-2f7d1d8b-480c-4aab-b67b-2f89273f29fb" name="" navigability="" association-type="association" visibility="private" />
+                      </relation>
+                    </item>
+                    <item id="1e514c533b2e4b4cbcb8799fc36c20f9" cid="REL002" type="relationship" name="" style-class="" creator="" creation-date="06/26/2021 17:45:26" from="236d6a1da8554542a2ca32cc614e93ad" to="87187b0778cd4b20b0ced1a8d10fc5de" visibility="package">
+                      <relation from="236d6a1da8554542a2ca32cc614e93ad" to="87187b0778cd4b20b0ced1a8d10fc5de" derived="false">
+                        <start-role id="umlar-1d82b1ab-77ea-4e0a-a211-fb2f9417f393" name="" navigability="" association-type="composition" visibility="private" />
+                        <end-role id="umlar-656048b5-c947-4f0b-a9a0-b3897969e376" name="" navigability="" association-type="association" visibility="private" />
+                      </relation>
+                    </item>
+                  </abstract-items>
+                  <sub-models />
+                </model>
+              </sub-models>
+              <diagram type="uml-class" id="p479e6aee609b46038c1d9ef16136c58a_692952803" name="Classes" order-index="4" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" namespace="MamasOmer.Classes">
+                <style>
+                  <background-color index="1" color="#FFFFFFFF" />
+                  <background-color index="2" color="#FFFFFFFF" />
+                  <background-type type="vertical-linear" />
+                </style>
+                <meta>
+                  <authors>
+                    <author> </author>
+                  </authors>
+                  <description />
+                  <creation-date>06/26/2021 17:45:26</creation-date>
+                  <change-date>06/26/2021 17:45:26</change-date>
+                  <revision-count>0</revision-count>
+                  <version />
+                </meta>
+                <abstract-items />
+                <layer id="1c165b413bc844d0bb84c51b4e8e4fec" name="Default" visible="true" enabled="true" locked="false" />
+              </diagram>
+            </model>
+          </sub-models>
+          <diagram type="uml-class" id="pcf12a246995d46d198b98e60e10a4062_947753431" name="MamasOmer" order-index="2" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" namespace="MamasOmer">
+            <style>
+              <background-color index="1" color="#FFFFFFFF" />
+              <background-color index="2" color="#FFFFFFFF" />
+              <background-type type="vertical-linear" />
+            </style>
+            <meta>
+              <authors>
+                <author> </author>
+              </authors>
+              <description />
+              <creation-date>06/26/2021 17:45:26</creation-date>
+              <change-date>06/26/2021 17:45:26</change-date>
+              <revision-count>0</revision-count>
+              <version />
+            </meta>
+            <abstract-items />
+            <layer id="0b42d24655fa4cb78346ba18bdbf5d28" name="Default" visible="true" enabled="true" locked="false">
+              <item id="2283113bf59f46968f12b0c131b6e33d" iid="b85856bced734e539b11d484893d4135" creation-date="06/26/2021 17:45:26" order-index="0" type="entity">
+                <layout ax="0" ay="0" awidth="127" aheight="56" x="0" y="0" width="127" height="56" />
+                <class />
+              </item>
+            </layer>
+          </diagram>
+        </model>
+      </sub-models>
+      <diagram type="uml-package" id="p06f26ba0af924d549fb492c9243b1227_480795793" name="Packages" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" namespace="">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="vertical-linear" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>06/26/2021 17:45:26</creation-date>
+          <change-date>06/26/2021 17:48:57</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items />
+        <layer id="f3d81b8b2d73443883f3c194c1ef8654" name="Default" visible="true" enabled="true" locked="false">
+          <item id="915e3e09301149f391df3cea1bf71093" iid="59e8b96dfbe5402f804859e028655421" creation-date="06/26/2021 17:45:26" order-index="0" type="entity">
+            <layout ax="97" ay="0" awidth="127" aheight="56" x="97" y="0" width="127" height="56" />
+            <package name-in-body="false" />
+          </item>
+          <item id="692284a190bb4d68825d372304429a04" iid="e68bdf7ea8f34daa84f6476eb41072b0" creation-date="06/26/2021 17:45:26" order-index="2" type="entity">
+            <layout ax="133" ay="312" awidth="84" aheight="56" x="133" y="312" width="84" height="56" />
+            <package name-in-body="false" />
+          </item>
+          <item id="eefeeb75e9c945468c6cd9541109c4cd" iid="1aba4f22213b41adb72a83ff8c50d904" creation-date="06/26/2021 17:45:26" order-index="3" type="entity">
+            <layout ax="0" ay="312" awidth="113" aheight="56" x="0" y="312" width="113" height="56" />
+            <package name-in-body="false" />
+          </item>
+          <item id="47ef6f50660d4b9199b56973f9b570f0" iid="ee7fe13e9368414eb67590d18ce8ef7f" creation-date="06/26/2021 17:45:26" order-index="4" type="entity">
+            <layout ax="237" ay="312" awidth="84" aheight="56" x="237" y="312" width="84" height="56" />
+            <package name-in-body="false" />
+          </item>
+          <item id="3e7819cac462445ba1d0c37f1d549c4e" iid="52cf0aeae30e4bc18456091e390974dd" creation-date="06/26/2021 17:45:26" order-index="5" type="relation">
+            <layout line-style="perpendicular" lock-to-fields="false" auto-path="" x1="160" y1="156" x2="160" y2="56" start-border-pos="0.123052325581395" end-border-pos="0.62548031496063" name-position="0,20">
+              <points>
+                <point x="160" y="156" />
+                <point x="160" y="106" />
+                <point x="160" y="106" />
+                <point x="160" y="56" />
+              </points>
+            </layout>
+            <relation to="915e3e09301149f391df3cea1bf71093" to-iid="59e8b96dfbe5402f804859e028655421" />
+          </item>
+          <item id="9299bd81caff4dc8a042bf474daf01bd" iid="10d122177b034171a074f7a90e4142c6" creation-date="06/26/2021 17:45:26" order-index="6" type="relation">
+            <layout line-style="perpendicular" lock-to-fields="false" auto-path="" x1="175" y1="312" x2="160" y2="212" start-border-pos="0.1245" end-border-pos="0.625947674418605" name-position="0,20">
+              <points>
+                <point x="175" y="312" />
+                <point x="175" y="262" />
+                <point x="160" y="262" />
+                <point x="160" y="212" />
+              </points>
+            </layout>
+            <relation from="692284a190bb4d68825d372304429a04" from-iid="e68bdf7ea8f34daa84f6476eb41072b0" />
+          </item>
+          <item id="995611213203478a9e42f7003fac0532" iid="a52683cdc1214243a007df6339eefb5d" creation-date="06/26/2021 17:45:26" order-index="7" type="relation">
+            <layout line-style="perpendicular" lock-end-point="true" lock-to-fields="false" auto-path="" x1="56" y1="312" x2="139" y2="212" start-border-pos="0.123398230088496" end-border-pos="0.6875" end-local-pos="21.5" name-position="0,20">
+              <points>
+                <point x="56" y="312" />
+                <point x="56" y="262" />
+                <point x="139" y="262" />
+                <point x="139" y="212" />
+              </points>
+            </layout>
+            <relation from="eefeeb75e9c945468c6cd9541109c4cd" from-iid="1aba4f22213b41adb72a83ff8c50d904" />
+          </item>
+          <item id="9b141000d47b40d7935e45b353f3e9a6" iid="8960a9ff54fa40bf944241189e63efac" creation-date="06/26/2021 17:45:26" order-index="8" type="relation">
+            <layout line-style="perpendicular" lock-end-point="true" lock-to-fields="false" auto-path="" x1="279" y1="312" x2="182" y2="212" start-border-pos="0.1245" end-border-pos="0.5625" end-local-pos="64.5" name-position="0,20">
+              <points>
+                <point x="279" y="312" />
+                <point x="279" y="262" />
+                <point x="182" y="262" />
+                <point x="182" y="212" />
+              </points>
+            </layout>
+            <relation from="47ef6f50660d4b9199b56973f9b570f0" from-iid="ee7fe13e9368414eb67590d18ce8ef7f" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-class" id="p2384757c4289485b8f2126bee8a79f6f_498138444" name="DB" order-index="1" expanded="true" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" namespace="MamasOmer.Classes.DB" view-location="-100,-100">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="vertical-linear" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>06/26/2021 17:45:26</creation-date>
+          <change-date>06/26/2021 18:10:21</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="80505e4b15fc4a99848a76ec7fcc6e1c" cid="C015" type="class" name="Class1" style-class="" change-tracking-state="added" creator="" creation-date="06/26/2021 17:52:20" />
+          <item id="196f9e74912f4d238439594407a32c33" cid="GNR002" type="generalization" name="Partial" style-class="" change-tracking-state="added" creator="" creation-date="06/26/2021 17:54:06" from="0f28c2cef5c341da9a19c8c8a5960ce6" to="403ae905fe2c4a9faa49d0681796ac9e" visibility="package">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF555555" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF555555" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="solid" colors="#FFF2F2F2,#FFF2F2F2" />
+              <border color="#FF2A2A2A" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" colors="#FF203D85,#FF203D85" />
+                  <border color="#FF203D85" width="2" dash-style="Solid" />
+                  <label-connector color="#80000000" width="1" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="867923860179429291245aebebeefbd4" cid="GNR003" type="generalization" name="Partial" style-class="" change-tracking-state="added" creator="" creation-date="06/26/2021 17:54:56" from="240981747f804622bf819dd1fece3640" to="403ae905fe2c4a9faa49d0681796ac9e" visibility="package">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF555555" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF555555" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="solid" colors="#FFF2F2F2,#FFF2F2F2" />
+              <border color="#FF2A2A2A" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" colors="#FF203D85,#FF203D85" />
+                  <border color="#FF203D85" width="2" dash-style="Solid" />
+                  <label-connector color="#80000000" width="1" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="31ec007ecb944156b772587e3feef6ee" cid="GNR004" type="generalization" name="Partial" style-class="" change-tracking-state="added" creator="" creation-date="06/26/2021 17:55:06" from="1c04f86db4904819ba566bb24a13f00d" to="403ae905fe2c4a9faa49d0681796ac9e" visibility="package">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF555555" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF555555" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="solid" colors="#FFF2F2F2,#FFF2F2F2" />
+              <border color="#FF2A2A2A" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" colors="#FF203D85,#FF203D85" />
+                  <border color="#FF203D85" width="2" dash-style="Solid" />
+                  <label-connector color="#80000000" width="1" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="e4d28382b81e45ada72ead045e650903" cid="GNR005" type="generalization" name="Partial" style-class="" change-tracking-state="added" creator="" creation-date="06/26/2021 17:55:13" from="4cd676c7c2cf4cfcb659e6995de5274b" to="403ae905fe2c4a9faa49d0681796ac9e" visibility="package">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF555555" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF555555" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="solid" colors="#FFF2F2F2,#FFF2F2F2" />
+              <border color="#FF2A2A2A" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" colors="#FF203D85,#FF203D85" />
+                  <border color="#FF203D85" width="2" dash-style="Solid" />
+                  <label-connector color="#80000000" width="1" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="af09b70473b54fb5b076a7c8f998b529" cid="ELEM008" type="universal-connector" name="" style-class="" change-tracking-state="added" creator="" creation-date="06/26/2021 17:56:26" from="edca989b9b164b038cb39a48cb5a2c00" to="6d6541e1e76f4126aa0c4154651a7f85">
+            <connector />
+          </item>
+          <item id="e76a34c73e9f4e4d83eb4daebec2df5a" cid="REL003" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="06/26/2021 17:57:41" from="87187b0778cd4b20b0ced1a8d10fc5de" to="fab789daa278485ba16e3440e0d97429" visibility="package">
+            <relation from="87187b0778cd4b20b0ced1a8d10fc5de" to="fab789daa278485ba16e3440e0d97429" derived="false">
+              <start-role id="umlar-6275048f-1e9b-488d-b0f2-eafd69e1f1cc" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-a075bc70-f50f-418c-b527-ba6d0f35ab28" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="9d2959b50f4a41dfa44a466e4bcb47ec" cid="DEP001" type="dependency" name="&lt;&lt;use&gt;&gt; (update)" style-class="" change-tracking-state="added" creator="" creation-date="06/26/2021 17:57:50" from="edca989b9b164b038cb39a48cb5a2c00" to="fab789daa278485ba16e3440e0d97429" visibility="package">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="9d2959b50f4a41dfa44a466e4bcb47ec_use_c" type="use" ref="" />
+            </stereotype-instances>
+          </item>
+          <item id="0bc345639a7944e1953339a6df2e0177" cid="DEP002" type="dependency" name="&lt;&lt;use&gt;&gt; (query)" style-class="" change-tracking-state="added" creator="" creation-date="06/26/2021 17:58:10" from="87187b0778cd4b20b0ced1a8d10fc5de" to="fab789daa278485ba16e3440e0d97429" visibility="package">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="0bc345639a7944e1953339a6df2e0177_use_c" type="use" ref="" />
+            </stereotype-instances>
+          </item>
+          <item id="9971ae428f8248f9a6afefbb04e5fea2" cid="REL004" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="06/26/2021 17:58:19" from="87187b0778cd4b20b0ced1a8d10fc5de" to="edca989b9b164b038cb39a48cb5a2c00" visibility="package">
+            <relation from="87187b0778cd4b20b0ced1a8d10fc5de" to="edca989b9b164b038cb39a48cb5a2c00" derived="false">
+              <start-role id="umlar-562e7f49-107b-4140-bbb5-b7b58d1e2e08" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-cf2ad3a8-ba20-4a65-9905-927a81db8840" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="290acb5b450b40989d813a931586c4d4" cid="DEP003" type="dependency" name="" style-class="" change-tracking-state="added" creator="" creation-date="06/26/2021 18:00:11" from="236d6a1da8554542a2ca32cc614e93ad" to="87187b0778cd4b20b0ced1a8d10fc5de" visibility="package">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="290acb5b450b40989d813a931586c4d4_use_c" type="use" ref="" />
+            </stereotype-instances>
+          </item>
+          <item id="eff3db0f5cfd4f6592a977c998cc19eb" cid="DEP004" type="dependency" name="" style-class="" change-tracking-state="added" creator="" creation-date="06/26/2021 18:02:52" from="2283113bf59f46968f12b0c131b6e33d" to="236d6a1da8554542a2ca32cc614e93ad" visibility="package">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="eff3db0f5cfd4f6592a977c998cc19eb_use_c" type="use" ref="" />
+            </stereotype-instances>
+          </item>
+          <item id="0a94f972ab0b46bcbfd7982caf879b05" cid="ELEM016" type="custom-shape" name="App.config" style-class="" change-tracking-state="added" creator="" creation-date="06/26/2021 18:03:34">
+            <drawing />
+            <custom-shape>
+              <graphic>
+                <name>Paper</name>
+                <bounds>0,0,820,1000</bounds>
+                <elements>
+                  <polygon bounds="0,0,819.2607,1000" points="0 0 630.5482 0 819.2607 188.7127 819.2607 1000 0 1000 ">
+                    <style system-style="true">
+                      <background-color>#00000000</background-color>
+                      <border-color>#00000000</border-color>
+                      <border-width>0</border-width>
+                      <transparency>0</transparency>
+                    </style>
+                  </polygon>
+                  <polygon bounds="630.5483,0,188.7124,205.3689" points="819.2607 188.7126 630.5483 0 662.709 205.3689 ">
+                    <style system-style="true">
+                      <background-color>#00000000</background-color>
+                      <border-color>#00000000</border-color>
+                      <border-width>0</border-width>
+                      <transparency>0</transparency>
+                    </style>
+                  </polygon>
+                </elements>
+              </graphic>
+            </custom-shape>
+          </item>
+          <item id="061d3bcb37174140bd3632de25a7f254" cid="ELEM018" type="universal-connector" name="" style-class="" change-tracking-state="added" creator="" creation-date="06/26/2021 18:05:05" from="403ae905fe2c4a9faa49d0681796ac9e" to="0a94f972ab0b46bcbfd7982caf879b05">
+            <connector />
+          </item>
+          <item id="c66e3338e0f5429594117e257f0c6d76" cid="ELEM019" type="text" name="Text1" style-class="Transparent" change-tracking-state="added" creator="" creation-date="06/26/2021 18:05:23">
+            <style class="Transparent" />
+            <drawing-text>
+              <text>App.config</text>
+            </drawing-text>
+          </item>
+        </abstract-items>
+        <layer id="464c21c3d1b24a4bb51e8e66c1b9cedb" name="Default" visible="true" enabled="true" locked="false">
+          <item id="fab789daa278485ba16e3440e0d97429" iid="3e4d4280b23d4cfe9e54cde1abf8f5c6" creation-date="06/26/2021 17:45:26" order-index="0" type="entity">
+            <layout ax="845" ay="659" awidth="326" aheight="94" x="845" y="659" width="326" height="94" />
+            <class />
+          </item>
+          <item id="27cd7918a4864b70b43890f345eeef15" iid="9276d4b4776147cf8e170a19eca618ad" creation-date="06/26/2021 17:45:26" order-index="0" type="entity">
+            <layout ax="-232.9046" ay="965" awidth="314.2892" aheight="160" x="-232.9046" y="965" width="314.2892" height="160" />
+            <class />
+          </item>
+          <item id="2bc2bc42378249989b0b3e541e656a39" iid="80263be251d94e08a93628296d5726e1" creation-date="06/26/2021 17:45:26" order-index="0" type="entity">
+            <layout ax="-250.7061" ay="1218" awidth="349.8923" aheight="139" x="-250.7061" y="1218" width="349.8923" height="139" />
+            <class />
+          </item>
+          <item id="236d6a1da8554542a2ca32cc614e93ad" iid="45b28a6ded0e4ad99cb143ee8d668448" creation-date="06/26/2021 17:45:26" order-index="0" type="entity">
+            <layout ax="418" ay="1155" awidth="198" aheight="125" x="418" y="1155" width="198" height="125" rotation-center="0,1.5" />
+            <class />
+          </item>
+          <item id="82c11a6e7d5245dc979662d0d490b1b9" iid="81234d835e904193a9ca27b70d9173fe" creation-date="06/26/2021 17:45:26" order-index="0" type="relation">
+            <layout line-style="perpendicular" lock-to-fields="false" auto-path="" x1="-77" y1="1218" x2="-76.37386" y2="1118" start-border-pos="0.124063147264465" end-border-pos="0.625642201834862" name-position="0,20">
+              <points>
+                <point x="-77" y="1218" />
+                <point x="-76.37386" y="1168" />
+                <point x="-76.37386" y="1168" />
+                <point x="-76.37386" y="1118" />
+              </points>
+            </layout>
+            <relation from="2bc2bc42378249989b0b3e541e656a39" from-iid="80263be251d94e08a93628296d5726e1" />
+          </item>
+          <item id="720c8badd0984cedb9a21cc045e32a87" iid="3c9fb0f8e09547bead92cee2440cd8cd" creation-date="06/26/2021 17:45:26" order-index="0" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="-37,146" line-style="perpendicular" end-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="418" y1="1212" x2="81" y2="1045" start-border-pos="0.886" end-border-pos="0.375" start-local-pos="56" end-local-pos="80" name-position="0,20">
+              <points>
+                <point x="418" y="1212" />
+                <point x="293.9999" y="1056.704" />
+                <point x="81" y="1045" />
+              </points>
+            </layout>
+            <relation from="236d6a1da8554542a2ca32cc614e93ad" from-iid="45b28a6ded0e4ad99cb143ee8d668448" to="27cd7918a4864b70b43890f345eeef15" to-iid="9276d4b4776147cf8e170a19eca618ad" to-field="o198ba0d09c9c4991ad9fbadb9fef1b05209" />
+          </item>
+          <item id="edca989b9b164b038cb39a48cb5a2c00" iid="62a09cb71e2c4958b4c81d2acf99b020" creation-date="06/26/2021 17:45:26" order-index="0" type="entity">
+            <layout ax="349" ay="377" awidth="339" aheight="330" x="349" y="377" width="339" height="330" />
+            <class />
+          </item>
+          <item id="87187b0778cd4b20b0ced1a8d10fc5de" iid="5081dd09442b405e85eef49cf1bb1993" creation-date="06/26/2021 17:45:26" order-index="0" type="entity">
+            <layout ax="359" ay="851" awidth="319" aheight="160" x="359" y="851" width="319" height="160" />
+            <class />
+          </item>
+          <item id="af09b70473b54fb5b076a7c8f998b529" iid="b5e99ac2869b443788315dfd526df647" creation-date="06/26/2021 17:56:26" order-index="6" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="518" y1="377" x2="518" y2="233" start-border-pos="0.124631268436578" end-border-pos="0.610710607621009" name-position="0,20">
+              <points>
+                <point x="518" y="377" />
+                <point x="518.5" y="276" />
+                <point x="518" y="233" />
+              </points>
+            </layout>
+            <relation from="edca989b9b164b038cb39a48cb5a2c00" from-iid="62a09cb71e2c4958b4c81d2acf99b020" to="6d6541e1e76f4126aa0c4154651a7f85" to-iid="8f317fba892b40f1902b6191a40d9330" />
+          </item>
+          <item id="9d2959b50f4a41dfa44a466e4bcb47ec" iid="6cd15c5abaf94f41859ea8b65b1e80ba" creation-date="06/26/2021 17:57:50" order-index="8" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="688" y1="542" x2="845" y2="706" start-border-pos="0.375" end-border-pos="0.875" name-position="0,20">
+              <points>
+                <point x="688" y="542" />
+                <point x="845" y="706" />
+              </points>
+            </layout>
+            <relation from="edca989b9b164b038cb39a48cb5a2c00" from-iid="62a09cb71e2c4958b4c81d2acf99b020" to="fab789daa278485ba16e3440e0d97429" to-iid="3e4d4280b23d4cfe9e54cde1abf8f5c6" />
+          </item>
+          <item id="0bc345639a7944e1953339a6df2e0177" iid="aa6d95a3618c4ecba7255eee056b87bf" creation-date="06/26/2021 17:58:10" order-index="9" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="678" y1="931" x2="845" y2="753" start-border-pos="0.375" end-border-pos="0.75" name-position="0,20">
+              <points>
+                <point x="678" y="931" />
+                <point x="845" y="753" />
+              </points>
+            </layout>
+            <relation from="87187b0778cd4b20b0ced1a8d10fc5de" from-iid="5081dd09442b405e85eef49cf1bb1993" to="fab789daa278485ba16e3440e0d97429" to-iid="3e4d4280b23d4cfe9e54cde1abf8f5c6" />
+          </item>
+          <item id="9971ae428f8248f9a6afefbb04e5fea2" iid="31674ce0295d47639a10169499fe9775" creation-date="06/26/2021 17:58:19" order-index="10" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="518" y1="851" x2="518" y2="707" start-border-pos="0.124608150470219" end-border-pos="0.625368731563422" name-position="0,20">
+              <points>
+                <point x="518" y="851" />
+                <point x="518" y="707" />
+              </points>
+            </layout>
+            <relation from="87187b0778cd4b20b0ced1a8d10fc5de" from-iid="5081dd09442b405e85eef49cf1bb1993" to="edca989b9b164b038cb39a48cb5a2c00" to-iid="62a09cb71e2c4958b4c81d2acf99b020" />
+          </item>
+          <item id="290acb5b450b40989d813a931586c4d4" iid="bb5c4540b3f243a8b29cb48d71be0f4d" creation-date="06/26/2021 18:00:11" order-index="11" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="517" y1="1155" x2="518" y2="1011" start-border-pos="0.125" end-border-pos="0.625391849529781" name-position="0,20">
+              <points>
+                <point x="517" y="1155" />
+                <point x="518" y="1011" />
+              </points>
+            </layout>
+            <relation from="236d6a1da8554542a2ca32cc614e93ad" from-iid="45b28a6ded0e4ad99cb143ee8d668448" to="87187b0778cd4b20b0ced1a8d10fc5de" to-iid="5081dd09442b405e85eef49cf1bb1993" />
+          </item>
+          <item id="2283113bf59f46968f12b0c131b6e33d" iid="6dff9b04f71048a8835c9d9e36298eec" creation-date="06/26/2021 18:02:21" order-index="0" type="entity">
+            <layout ax="447" ay="1357" awidth="140" aheight="84" x="447" y="1357" width="140" height="67" rotation-center="0,49.5" />
+            <class />
+          </item>
+          <item id="eff3db0f5cfd4f6592a977c998cc19eb" iid="ee542c8da03c4bbe876e4c32382ed852" creation-date="06/26/2021 18:02:52" order-index="12" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="516" y1="1357" x2="517" y2="1280" start-border-pos="0.124107142857143" end-border-pos="0.625" name-position="0,20">
+              <points>
+                <point x="516" y="1357" />
+                <point x="517" y="1280" />
+              </points>
+            </layout>
+            <relation from="2283113bf59f46968f12b0c131b6e33d" from-iid="6dff9b04f71048a8835c9d9e36298eec" to="236d6a1da8554542a2ca32cc614e93ad" to-iid="45b28a6ded0e4ad99cb143ee8d668448" />
+          </item>
+          <item id="403ae905fe2c4a9faa49d0681796ac9e" iid="16ca8cc6f04644308e213b320ded3733" creation-date="06/26/2021 17:45:26" order-index="0" type="entity">
+            <layout ax="431" ay="113" awidth="166" aheight="120" x="431" y="113" width="166" height="120" />
+            <class />
+          </item>
+          <item id="4cd676c7c2cf4cfcb659e6995de5274b" iid="9ff955baad4643d9abb4443b477621f3" creation-date="06/26/2021 17:45:26" order-index="0" type="entity">
+            <layout ax="721" ay="-163" awidth="227" aheight="177" x="721" y="-163" width="227" height="177" />
+            <class />
+          </item>
+          <item id="240981747f804622bf819dd1fece3640" iid="39989b10e8c04a219797f95f8a59e2e0" creation-date="06/26/2021 17:45:26" order-index="0" type="entity">
+            <layout ax="200" ay="-163" awidth="211" aheight="116" x="200" y="-163" width="211" height="116" rotation-center="0,2" />
+            <class />
+          </item>
+          <item id="0f28c2cef5c341da9a19c8c8a5960ce6" iid="5029632d48c148e5ab4305bfd6b55ab7" creation-date="06/26/2021 17:45:26" order-index="0" type="entity">
+            <layout ax="-23" ay="-163" awidth="203" aheight="120" x="-23" y="-163" width="203" height="120" />
+            <class />
+          </item>
+          <item id="1c04f86db4904819ba566bb24a13f00d" iid="1cd0ea32369f4e52ba400ae4c5d53615" creation-date="06/26/2021 17:45:26" order-index="0" type="entity">
+            <layout ax="431" ay="-163" awidth="259" aheight="120" x="431" y="-163" width="259" height="120" />
+            <class />
+          </item>
+          <item id="196f9e74912f4d238439594407a32c33" iid="1716b8eaaff949208cb5e670cda10088" creation-date="06/26/2021 17:54:06" order-index="1" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="79" y1="-43" x2="514" y2="113" start-border-pos="0.624384236453202" end-border-pos="0.125" name-position="0,20">
+              <points>
+                <point x="79" y="-43" />
+                <point x="514" y="113" />
+              </points>
+            </layout>
+            <relation from="0f28c2cef5c341da9a19c8c8a5960ce6" from-iid="5029632d48c148e5ab4305bfd6b55ab7" to="403ae905fe2c4a9faa49d0681796ac9e" to-iid="16ca8cc6f04644308e213b320ded3733" />
+          </item>
+          <item id="867923860179429291245aebebeefbd4" iid="0ab7533d7df84beca8bf5719ba4095fb" creation-date="06/26/2021 17:54:56" order-index="2" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="305" y1="-47" x2="514" y2="113" start-border-pos="0.625592417061611" end-border-pos="0.125" name-position="0,20">
+              <points>
+                <point x="305" y="-47" />
+                <point x="514" y="113" />
+              </points>
+            </layout>
+            <relation from="240981747f804622bf819dd1fece3640" from-iid="39989b10e8c04a219797f95f8a59e2e0" to="403ae905fe2c4a9faa49d0681796ac9e" to-iid="16ca8cc6f04644308e213b320ded3733" />
+          </item>
+          <item id="31ec007ecb944156b772587e3feef6ee" iid="6a71b3ffbff647788b63d36684b7c950" creation-date="06/26/2021 17:55:06" order-index="3" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="561" y1="-43" x2="514" y2="113" start-border-pos="0.624517374517375" end-border-pos="0.125" name-position="0,20">
+              <points>
+                <point x="561" y="-43" />
+                <point x="514" y="113" />
+              </points>
+            </layout>
+            <relation from="1c04f86db4904819ba566bb24a13f00d" from-iid="1cd0ea32369f4e52ba400ae4c5d53615" to="403ae905fe2c4a9faa49d0681796ac9e" to-iid="16ca8cc6f04644308e213b320ded3733" />
+          </item>
+          <item id="e4d28382b81e45ada72ead045e650903" iid="9e00bfa9153349a7901e5a8bdb98b544" creation-date="06/26/2021 17:55:13" order-index="4" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="835" y1="14" x2="514" y2="113" start-border-pos="0.624449339207048" end-border-pos="0.125" name-position="0,20">
+              <points>
+                <point x="835" y="14" />
+                <point x="514" y="113" />
+              </points>
+            </layout>
+            <relation from="4cd676c7c2cf4cfcb659e6995de5274b" from-iid="9ff955baad4643d9abb4443b477621f3" to="403ae905fe2c4a9faa49d0681796ac9e" to-iid="16ca8cc6f04644308e213b320ded3733" />
+          </item>
+          <item id="061d3bcb37174140bd3632de25a7f254" iid="49e696e00ef3475c9162c9be9821f798" creation-date="06/26/2021 18:05:05" order-index="14" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="431" y1="173" x2="180" y2="173" start-border-pos="0.875" end-border-pos="0.375" name-position="0,20">
+              <points>
+                <point x="431" y="173" />
+                <point x="180" y="173" />
+              </points>
+            </layout>
+            <relation from="403ae905fe2c4a9faa49d0681796ac9e" from-iid="16ca8cc6f04644308e213b320ded3733" to="0a94f972ab0b46bcbfd7982caf879b05" to-iid="b3dd65b077714f258fa3859e32210427" />
+          </item>
+          <item id="dd75b210a53e472eb3167c54bd71d73e" iid="fee1fd5138fe4c4a8a670845440ca793" creation-date="06/26/2021 18:05:47" order-index="16" type="group">
+            <layout ax="106" ay="117" awidth="74" aheight="112" x="106" y="117" width="140" height="160" />
+            <group-items>
+              <item id="0a94f972ab0b46bcbfd7982caf879b05" iid="b3dd65b077714f258fa3859e32210427" creation-date="06/26/2021 18:03:34" order-index="13" type="entity">
+                <layout ax="106" ay="117" awidth="74" aheight="112" x="106" y="117" width="74" height="112" rotation-center="45,43" />
+              </item>
+              <item id="c66e3338e0f5429594117e257f0c6d76" iid="6dccc2636e304beda3c73fd281a946ca" creation-date="06/26/2021 18:05:23" order-index="15" type="drawing-text">
+                <layout ax="106" ay="159.5" awidth="74" aheight="27" x="106" y="159.5" width="74" height="27" rotation-center="0,5.5" />
+              </item>
+            </group-items>
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-class" id="p16c3c53e5e90441e9d66d737ed9a9b0a_183585776" name="Menus" order-index="1" expanded="true" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" namespace="MamasOmer.Classes.Menus" view-location="-100,-100">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="vertical-linear" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>06/26/2021 17:45:26</creation-date>
+          <change-date>06/26/2021 17:48:49</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items />
+        <layer id="715206e01773403397c553824c868e0d" name="Default" visible="true" enabled="true" locked="false" />
+      </diagram>
+      <document id="9a0cbf9a870f4bafb79ce58140c5daf0" name="Document1" is-template="false" creation-date="06/26/2021 17:51:57" order-index="0">
+        <meta>
+          <authors />
+          <description />
+          <creation-date>01/01/0001 00:00:00</creation-date>
+          <change-date>01/01/0001 00:00:00</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <text>
+          <default>
+            <style font-name="Segoe UI" font-size="11.25">
+              <text>
+                <solid-brush color="#FF000000" />
+              </text>
+            </style>
+          </default>
+          <styles />
+          <definition>
+            <sections>
+              <section name="">
+                <default-page>
+                  <page size="21,29.7" header-offset="1.5" footer-offset="1.5" unit="cm">
+                    <margins left="2" right="2" top="2" bottom="2" />
+                  </page>
+                </default-page>
+              </section>
+            </sections>
+          </definition>
+          <content>
+            <paragraph>
+              <style />
+              <p>
+                <t>
+</t>
+              </p>
+            </paragraph>
+          </content>
+        </text>
+      </document>
+    </model>
+  </models>
+</sim-project>

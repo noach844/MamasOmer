@@ -1,5 +1,4 @@
-﻿using Mamas;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -8,7 +7,7 @@ namespace MamasOmer.Classes.Menus
     class MainMenu
     {
         // Base menu
-        private Menu _menu;        
+        private MenuCreator _menu;        
         private EmployeesManager _manager;
 
         /// <summary>
@@ -18,7 +17,7 @@ namespace MamasOmer.Classes.Menus
         {
             // Init
             _manager = new EmployeesManager();
-            _menu = new Menu();
+            _menu = new MenuCreator();
             // Add options to menu
             _menu.AddOption("Search Employee", _manager.SearchEmployees);
             _menu.AddOption("Insert Card", _manager.InsertCard);
