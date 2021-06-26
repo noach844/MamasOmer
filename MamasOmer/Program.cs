@@ -3,6 +3,7 @@ using System.Configuration;
 using MamasOmer.Classes;
 using MamasOmer.Classes.DB;
 using MamasOmer.Classes.Exceptions;
+using MamasOmer.Classes.Menus;
 
 namespace MamasOmer
 {
@@ -10,8 +11,10 @@ namespace MamasOmer
     {        
         static void Main(string[] args)
         {
-            EmployeesManager manager = new EmployeesManager();
-            manager.SearchEmployees("Ing");
+            // Init main menu
+            MainMenu menu = new MainMenu();
+            // Run menu
+            menu.Run();
         }
     }
 }
