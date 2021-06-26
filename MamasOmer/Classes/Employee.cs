@@ -92,6 +92,7 @@ namespace MamasOmer.Classes
                     {
                         // uses the maximum Hours between worked Hours and const Hours of rank.
                         Hours = Math.Max(Hours, constHours);
+                        DBHandler.UpdateEmployee(this);
                     }
                 }
             }
@@ -106,7 +107,8 @@ namespace MamasOmer.Classes
             // fist, check if there is a need to set employee's Hours
             setConstHours();
             //calculation
-            return (Hours * (ConfigSerializer.HourSalary * bonus)) * riskBonus;
+            double wage = ((Hours * (ConfigSerializer.HourSalary * bonus)) * riskBonus);
+            return Math.Round(wage, 2);
         }
 
         /// <summary>
@@ -134,6 +136,7 @@ namespace MamasOmer.Classes
                 StartTime = now.ToString();
                 // Update on DB
                 DBHandler.UpdateEmployee(this);
+                Console.WriteLine($"Welcome {Name}! Have a great shift!");
             }
             // End of shift
             else
@@ -152,12 +155,8 @@ namespace MamasOmer.Classes
                 StartTime = null;
                 // Updating the db. Hours and StartTime.
                 DBHandler.UpdateEmployee(this);
+                Console.WriteLine($"Goodbye {Name}! Hope you had a nice shift :)");
             }
-        }
-
-        public override string ToString()
-        {
-            return $"{ID} | {Name} | {Roll}";
-        }
+        }        
     }
 }
